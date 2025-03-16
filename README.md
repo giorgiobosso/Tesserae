@@ -25,12 +25,13 @@ You can find these packages through Max MSP's built-in Package Manager or downlo
 To install **Tesserae** into Max MSP:
 
 1. Download or clone the repository.
-2. Place the downloaded folder into your Max MSP Packages directory:
+2. Rename the extracted folder from the downloaded zip file to `Tesserae` (this step is essential for the introductory patch to function correctly).
+3. Place the renamed folder into your Max MSP Packages directory:
 
    - **macOS**: `~/Documents/Max 9/Packages/`
    - **Windows**: `\Documents\Max 9\Packages\`
 
-3. Restart Max MSP, and Tesserae modules will be available.
+4. Restart Max MSP, and Tesserae modules will be available.
 
 **Note**: After installation, Tesserae modules will also appear in the sidebar under the "Snippets" section in Max MSP. You can easily open them by double-clicking or drag and drop them into your patches for quick and efficient workflow.
 
@@ -41,4 +42,3 @@ For inquiries, issues, feature requests, or contributions, please contact me via
 [giorgio.bosso97@gmail.com](mailto:giorgio.bosso97@gmail.com)
 
 Enjoy creating with **Tesserae**!
-
