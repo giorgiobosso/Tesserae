@@ -1,0 +1,22 @@
+{
+	"author" : "Giorgio Bosso",
+	"description" : "Tesserae is a collection of audio processing, synthesis, sequencing, and control modules designed for flexibility and creative sound exploration.",
+	"homepatcher" : "Tesserae Intro.maxpat",
+	"max_version_min" : "8.1",
+	"name" : "Tesserae",
+	"os" : {
+		"macintosh" : {
+			"platform" : [ "x64", "arm64" ],
+			"min_version" : "none"
+		},
+		"windows" : {
+			"platform" : [ "x64" ],
+			"min_version" : "none"
+		}
+	},
+	"package_extra" : {
+		"copyright" : "Copyright (c) 2025 Giorgio Bosso"
+	},
+	"tags" : ["eurorack", "modular", "synthesis", "algorithmic"],
+	"version" : "1.0.1"
+}
