@@ -15,6 +15,27 @@
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-104",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "", "", "", "" ],
+					"patching_rect" : [ 1064.0, 429.0, 56.0, 22.0 ],
+					"restore" : 					{
+						"Direction" : [ 0.0 ],
+						"GateStep" : [ 1, 16, 0, 1, 12, 0, 16, 59.0, 80.0, 0, 0, 60, 101, 4, 66, 31, 63, 83, 4, 64, 31, 67, 57, 4, 64, 31, 74, 78, 4, 64, 31, 70, 35, 4, 64, 30, 67, 75, 4, 63, 27, 60, 114, 4, 67, 26, 70, 75, 4, 75, 26, 67, 59, 4, 111, 26, 79, 80, 4, 125, 27, 60, 100, 4, 117, 29, 70, 84, 4, 97, 42, 60, 114, 4, 44, 47, 63, 98, 4, 16, 117, 70, 97, 4, 23, 59, 62, 103, 4, 37, 31 ],
+						"LiveStep" : [ 1, 16, 7, 1, 12, 0, 16, 59.0, 80.0, 0, 0, 60, 101, 4, 66, 31, 63, 83, 4, 64, 31, 67, 57, 4, 64, 31, 74, 78, 4, 64, 31, 70, 35, 4, 64, 30, 67, 75, 4, 63, 27, 60, 114, 4, 67, 26, 70, 75, 4, 75, 26, 67, 59, 4, 111, 26, 79, 80, 4, 125, 27, 60, 100, 4, 117, 29, 70, 84, 4, 97, 42, 60, 114, 4, 44, 47, 63, 98, 4, 16, 117, 70, 97, 4, 23, 59, 62, 103, 4, 37, 31, 60, 62, 63, 67, 70, 74, 79 ],
+						"Rate" : [ 7.0 ],
+						"Swing" : [ 0.0 ]
+					}
+,
+					"text" : "autopattr",
+					"varname" : "u213020456"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-103",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -1975,7 +1996,7 @@
 
 							}
  ],
-						"originid" : "pat-1070",
+						"originid" : "pat-3810",
 						"bgcolor" : [ 0.56078431372549, 0.56078431372549, 0.56078431372549, 1.0 ],
 						"editing_bgcolor" : [ 0.56078431372549, 0.56078431372549, 0.56078431372549, 1.0 ]
 					}
@@ -2654,10 +2675,10 @@
 							"parameter_initial" : [ 1, 16, 0, 1, 12, 0, 16, 59.0, 80.0, 0, 0, 60, 101, 4, 66, 31, 63, 83, 4, 64, 31, 67, 57, 4, 64, 31, 74, 78, 4, 64, 31, 70, 35, 4, 64, 30, 67, 75, 4, 63, 27, 60, 114, 4, 67, 26, 70, 75, 4, 75, 26, 67, 59, 4, 111, 26, 79, 80, 4, 125, 27, 60, 100, 4, 117, 29, 70, 84, 4, 97, 42, 60, 114, 4, 44, 47, 63, 98, 4, 16, 117, 70, 97, 4, 23, 59, 62, 103, 4, 37, 31 ],
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
-							"parameter_longname" : "livestep",
+							"parameter_longname" : "LiveStep",
 							"parameter_modmode" : 0,
 							"parameter_osc_name" : "<default>",
-							"parameter_shortname" : "livestep",
+							"parameter_shortname" : "LiveStep",
 							"parameter_type" : 3
 						}
 
@@ -2666,7 +2687,7 @@
 					"stepcolor" : [ 0.922234290352602, 0.71007200526417, 0.329758341965716, 1.0 ],
 					"stepcolor2" : [ 0.458595350062755, 0.458595237564901, 0.458595266962388, 1.0 ],
 					"textcolor" : [ 0.85, 0.85, 0.85, 1.0 ],
-					"varname" : "livestep"
+					"varname" : "LiveStep"
 				}
 
 			}
@@ -3135,7 +3156,7 @@
 
 							}
  ],
-						"originid" : "pat-1072"
+						"originid" : "pat-3812"
 					}
 ,
 					"patching_rect" : [ 871.0, 650.0, 129.0, 22.0 ],
@@ -3634,10 +3655,10 @@
 							"parameter_initial" : [ 1, 16, 0, 1, 12, 0, 16, 59.0, 80.0, 0, 0, 60, 101, 4, 66, 31, 63, 83, 4, 64, 31, 67, 57, 4, 64, 31, 74, 78, 4, 64, 31, 70, 35, 4, 64, 30, 67, 75, 4, 63, 27, 60, 114, 4, 67, 26, 70, 75, 4, 75, 26, 67, 59, 4, 111, 26, 79, 80, 4, 125, 27, 60, 100, 4, 117, 29, 70, 84, 4, 97, 42, 60, 114, 4, 44, 47, 63, 98, 4, 16, 117, 70, 97, 4, 23, 59, 62, 103, 4, 37, 31 ],
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
-							"parameter_longname" : "Gate",
+							"parameter_longname" : "GateStep",
 							"parameter_modmode" : 0,
 							"parameter_osc_name" : "<default>",
-							"parameter_shortname" : "Gate",
+							"parameter_shortname" : "GateStep",
 							"parameter_type" : 3
 						}
 
@@ -3646,7 +3667,7 @@
 					"stepcolor" : [ 0.922234290352602, 0.71007200526417, 0.329758341965716, 1.0 ],
 					"stepcolor2" : [ 0.458595350062755, 0.458595237564901, 0.458595266962388, 1.0 ],
 					"textcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
-					"varname" : "Gate",
+					"varname" : "GateStep",
 					"velocity_active" : 0,
 					"whitekeycolor" : [ 0.96078431372549, 0.96078431372549, 0.96078431372549, 0.0 ]
 				}
@@ -4693,6 +4714,46 @@
 				"patchline" : 				{
 					"destination" : [ "obj-110", 0 ],
 					"source" : [ "obj-103", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-12", 0 ],
+					"order" : 2,
+					"source" : [ "obj-104", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-174", 0 ],
+					"order" : 0,
+					"source" : [ "obj-104", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-47", 0 ],
+					"order" : 3,
+					"source" : [ "obj-104", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-55", 0 ],
+					"order" : 4,
+					"source" : [ "obj-104", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-7", 0 ],
+					"order" : 1,
+					"source" : [ "obj-104", 0 ]
 				}
 
 			}
@@ -6859,7 +6920,7 @@
 
 			}
  ],
-		"originid" : "pat-1068",
+		"originid" : "pat-3808",
 		"parameters" : 		{
 			"obj-100" : [ "View", "View", 0 ],
 			"obj-12" : [ "Rate", "Rate", 0 ],
@@ -6874,8 +6935,8 @@
 			"obj-30" : [ "Random", "Random", 0 ],
 			"obj-4" : [ "Fold", "Fold", 0 ],
 			"obj-47" : [ "Direction", "Direction", 4 ],
-			"obj-55" : [ "livestep", "livestep", 0 ],
-			"obj-7" : [ "Gate", "Gate", 0 ],
+			"obj-55" : [ "LiveStep", "LiveStep", 0 ],
+			"obj-7" : [ "GateStep", "GateStep", 0 ],
 			"obj-80" : [ "Reset", "Reset", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{

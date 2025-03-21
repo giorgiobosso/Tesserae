@@ -14,6 +14,61 @@
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
 				"box" : 				{
+					"format" : 6,
+					"id" : "obj-11",
+					"maxclass" : "flonum",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 422.345795780420303, 598.0, 50.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.9, 0.65, 0.05, 1.0 ],
+					"fontname" : "Arial Bold",
+					"hint" : "",
+					"id" : "obj-2",
+					"ignoreclick" : 1,
+					"legacytextcolor" : 1,
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 598.0, 463.5, 20.0, 20.0 ],
+					"rounded" : 60.0,
+					"saved_attribute_attributes" : 					{
+						"bgcolor" : 						{
+							"expression" : "themecolor.lesson_step_circle"
+						}
+
+					}
+,
+					"text" : "3",
+					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bubble" : 1,
+					"fontname" : "Arial",
+					"fontsize" : 13.0,
+					"id" : "obj-3",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 447.0, 461.0, 149.0, 25.0 ],
+					"presentation_linecount" : 2,
+					"text" : "Trigger the envelope"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"bgcolor" : [ 0.9, 0.65, 0.05, 1.0 ],
 					"fontname" : "Arial Bold",
 					"hint" : "",
@@ -84,7 +139,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 93.0, 437.0, 150.0, 33.0 ],
+					"patching_rect" : [ 97.0, 453.0, 150.0, 33.0 ],
 					"text" : "Manually triggers the envelope"
 				}
 
@@ -96,19 +151,18 @@
 					"maxclass" : "live.line",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 205.0, 454.0, 86.5, 27.0 ]
+					"patching_rect" : [ 209.0, 472.0, 86.5, 27.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"id" : "obj-29",
-					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 69.0, 538.0, 150.0, 33.0 ],
-					"text" : "Adjusts the length of each envelope"
+					"patching_rect" : [ 69.0, 538.0, 150.0, 20.0 ],
+					"text" : "Enable/Disable Re-Trigger"
 				}
 
 			}
@@ -119,30 +173,7 @@
 					"maxclass" : "live.line",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 203.0, 520.0, 89.0, 24.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-24",
-					"linecount" : 3,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 330.0, 589.0, 150.0, 47.0 ],
-					"text" : "Controls the stereo placement of each envelope"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-22",
-					"justification" : 3,
-					"maxclass" : "live.line",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 353.0, 536.0, 14.0, 51.0 ]
+					"patching_rect" : [ 203.75, 521.0, 89.0, 24.0 ]
 				}
 
 			}
@@ -153,8 +184,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 482.0, 562.0, 150.0, 33.0 ],
-					"text" : "Sets the amplitude of each envelope"
+					"patching_rect" : [ 486.0, 545.0, 150.0, 33.0 ],
+					"text" : "Adjusts the length of the envelope"
 				}
 
 			}
@@ -165,30 +196,7 @@
 					"maxclass" : "live.line",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 422.0, 529.0, 64.0, 42.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-18",
-					"linecount" : 3,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 497.0, 480.0, 150.0, 47.0 ],
-					"text" : "Opens a window displaying all 16 voices of the envelope"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-16",
-					"justification" : 3,
-					"maxclass" : "live.line",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 431.0, 480.0, 64.0, 20.0 ]
+					"patching_rect" : [ 416.0, 521.0, 74.0, 33.0 ]
 				}
 
 			}
@@ -319,28 +327,6 @@
 			}
 , 			{
 				"box" : 				{
-					"bgmode" : 0,
-					"border" : 0,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-1",
-					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "te.polyenvelope.maxpat",
-					"numinlets" : 7,
-					"numoutlets" : 1,
-					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 272.0, 320.0, 169.345795780420303, 234.257255204021931 ],
-					"varname" : "te.polyenvelope",
-					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"bgcolor" : [ 0.9, 0.65, 0.05, 1.0 ],
 					"fontname" : "Arial Bold",
 					"hint" : "",
@@ -398,7 +384,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 625.0, 7.0, 206.0, 74.0 ],
-					"text" : "te.polyenvelope\n\nTesserae by Giorgio Bosso © 2025\n\nhttps://linktr.ee/giorgiobosso"
+					"text" : "te.envelope\n\nTesserae by Giorgio Bosso © 2025\n\nhttps://linktr.ee/giorgiobosso"
 				}
 
 			}
@@ -406,12 +392,12 @@
 				"box" : 				{
 					"fontsize" : 12.0,
 					"id" : "obj-4",
-					"linecount" : 3,
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1.0, 48.0, 482.0, 47.0 ],
-					"text" : "Poly Envelope is a polyphonic envelope generator that provides various envelope shapes for dynamic control over amplitude and modulation. It allows customization of duration, panning, and gain"
+					"patching_rect" : [ 1.0, 48.0, 482.0, 33.0 ],
+					"text" : "An envelope generator that offers multiple envelope shapes for dynamic amplitude and modulation control, allowing customization of duration"
 				}
 
 			}
@@ -423,12 +409,41 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1.0, 1.0, 342.0, 51.0 ],
-					"text" : "te.polyenvelope"
+					"text" : "te.envelope"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-1",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "te.envelope.maxpat",
+					"numinlets" : 5,
+					"numoutlets" : 2,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "multichannelsignal", "" ],
+					"patching_rect" : [ 272.0, 322.0, 169.345795780420303, 231.963133700191975 ],
+					"varname" : "te.envelope",
+					"viewvisibility" : 1
 				}
 
 			}
  ],
 		"lines" : [ 			{
+				"patchline" : 				{
+					"destination" : [ "obj-11", 0 ],
+					"source" : [ "obj-1", 1 ]
+				}
+
+			}
+, 			{
 				"patchline" : 				{
 					"destination" : [ "obj-25", 0 ],
 					"source" : [ "obj-1", 0 ]
@@ -457,13 +472,9 @@
 
 			}
  ],
-		"originid" : "pat-232",
+		"originid" : "pat-3876",
 		"parameters" : 		{
-			"obj-1::obj-13::obj-1" : [ "mc.live.gain~[6]", "mc.live.gain~", 0 ],
-			"obj-1::obj-13::obj-2" : [ "mc.live.gain~[7]", "mc.live.gain~", 0 ],
 			"obj-1::obj-30" : [ "Duration", "Duration", 0 ],
-			"obj-1::obj-32" : [ "Pan", "Pan", 0 ],
-			"obj-1::obj-36" : [ "Gain", "Gain", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
@@ -483,14 +494,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "p_env.maxpat",
-				"bootpath" : "~/Documents/Max 9/Packages/Tesserae/code",
-				"patcherrelativepath" : "../code",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "te.polyenvelope.maxpat",
+				"name" : "te.envelope.maxpat",
 				"bootpath" : "~/Documents/Max 9/Packages/Tesserae/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",

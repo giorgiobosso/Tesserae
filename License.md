@@ -1,4 +1,3 @@
-
 MIT License
 
 Copyright (c) 2025 Giorgio Bosso
@@ -9,6 +8,7 @@ Portions of Tesserae utilize objects originally authored by:
 - Volker Böhm (vb.mi-objects)
 - Maurizio Giri and Alessandro Cipriani (Virtual Sound Macros: vs.rand.gendsp, vs.rand3.gendsp)
 - Alex Harker, Pierre Alexandre Tremblay, CeReNeM, The University of Huddersfield (HISSTools Impulse Response Toolbox - HIRT)
+- Tim Shatnyy (TS.Modular: Normalization.maxpat, tsMutableReson.gendsp)
 
 All rights pertaining to these third-party objects remain with their respective authors and are governed by the licenses of their original projects.
 

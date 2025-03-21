@@ -10,9 +10,31 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1474.0, 87.0, 1852.0, 959.0 ],
+		"rect" : [ 34.0, 87.0, 1372.0, 779.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
+				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-34",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "te.envelope.maxpat",
+					"numinlets" : 5,
+					"numoutlets" : 1,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "multichannelsignal" ],
+					"patching_rect" : [ 1247.0, 14.0, 169.345795780420303, 231.963133700191975 ],
+					"varname" : "te.envelope",
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"bgmode" : 0,
 					"border" : 0,
@@ -158,7 +180,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 1522.0, 699.0, 107.526886463165283, 148.343214817345142 ],
+					"patching_rect" : [ 1338.0, 699.0, 107.526886463165283, 148.343214817345142 ],
 					"viewvisibility" : 1
 				}
 
@@ -179,7 +201,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1393.0, 699.0, 120.0, 131.0 ],
+					"patching_rect" : [ 1209.0, 699.0, 120.0, 131.0 ],
 					"varname" : "te.randomlist",
 					"viewvisibility" : 1
 				}
@@ -201,29 +223,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1266.0, 699.0, 118.253970086574554, 293.901098899543285 ],
-					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgmode" : 0,
-					"border" : 0,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-20",
-					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "te.polyenvelope.maxpat",
-					"numinlets" : 7,
-					"numoutlets" : 1,
-					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 1087.0, 699.0, 169.345795780420303, 234.257255204021931 ],
-					"varname" : "te.polyenvelope",
+					"patching_rect" : [ 1082.0, 699.0, 118.253970086574554, 293.901098899543285 ],
 					"viewvisibility" : 1
 				}
 
@@ -396,6 +396,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 833.0, 372.046729147434235, 492.268013656139374, 193.876277685165405 ],
+					"varname" : "te.midiseq",
 					"viewvisibility" : 1
 				}
 
@@ -501,8 +502,8 @@
 					"numinlets" : 7,
 					"numoutlets" : 5,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "", "", "", "", "int" ],
-					"patching_rect" : [ 1247.0, 14.0, 340.857793092727661, 125.105262041091919 ],
+					"outlettype" : [ "int", "int", "float", "", "int" ],
+					"patching_rect" : [ 1427.0, 14.0, 340.857793092727661, 125.105262041091919 ],
 					"viewvisibility" : 1
 				}
 
@@ -641,7 +642,7 @@
 			}
  ],
 		"lines" : [  ],
-		"originid" : "pat-19",
+		"originid" : "pat-416",
 		"parameters" : 		{
 			"obj-11::obj-2" : [ "Pitch[1]", "Pitch", 0 ],
 			"obj-12::obj-100" : [ "View", "View", 0 ],
@@ -657,8 +658,8 @@
 			"obj-12::obj-30" : [ "Random", "Random", 0 ],
 			"obj-12::obj-4" : [ "Fold", "Fold", 0 ],
 			"obj-12::obj-47" : [ "Direction", "Direction", 4 ],
-			"obj-12::obj-55" : [ "livestep", "livestep", 0 ],
-			"obj-12::obj-7" : [ "Gate", "Gate", 0 ],
+			"obj-12::obj-55" : [ "livestep", "LiveStep", 0 ],
+			"obj-12::obj-7" : [ "Gate", "GateStep", 0 ],
 			"obj-12::obj-80" : [ "Reset", "Reset", 0 ],
 			"obj-14::obj-42" : [ "Dry/Wet[2]", "Dry/Wet", 0 ],
 			"obj-15::obj-10" : [ "Interp", "Interp", 0 ],
@@ -690,11 +691,6 @@
 			"obj-1::obj-48" : [ "Dry/Wet", "Dry/Wet", 0 ],
 			"obj-1::obj-50" : [ "Type-1", "Type-1", 0 ],
 			"obj-1::obj-55" : [ "Type-2", "Type-2", 0 ],
-			"obj-20::obj-13::obj-1" : [ "mc.live.gain~[6]", "mc.live.gain~", 0 ],
-			"obj-20::obj-13::obj-2" : [ "mc.live.gain~[7]", "mc.live.gain~", 0 ],
-			"obj-20::obj-30" : [ "Duration[1]", "Duration", 0 ],
-			"obj-20::obj-32" : [ "Pan[1]", "Pan", 0 ],
-			"obj-20::obj-36" : [ "Gain[3]", "Gain", 0 ],
 			"obj-21::obj-67" : [ "Index", "Index", 0 ],
 			"obj-21::obj-68" : [ "Preset-1", "Preset-1", 0 ],
 			"obj-21::obj-70" : [ "Preset-2", "Preset-2", 0 ],
@@ -788,6 +784,7 @@
 			"obj-31::obj-3" : [ "Dry/Wet[5]", "Dry/Wet", 0 ],
 			"obj-31::obj-50" : [ "Vowel", "Vowel", 0 ],
 			"obj-31::obj-54" : [ "Cutoff", "Cutoff", 0 ],
+			"obj-34::obj-30" : [ "Duration[3]", "Duration", 0 ],
 			"obj-3::obj-128" : [ "Glide", "Glide", 0 ],
 			"obj-3::obj-44" : [ "Timbre", "Timbre", 0 ],
 			"obj-3::obj-45" : [ "Color", "Color", 0 ],
@@ -861,18 +858,6 @@
 ,
 				"obj-18::obj-97" : 				{
 					"parameter_longname" : "Length[1]"
-				}
-,
-				"obj-20::obj-30" : 				{
-					"parameter_longname" : "Duration[1]"
-				}
-,
-				"obj-20::obj-32" : 				{
-					"parameter_longname" : "Pan[1]"
-				}
-,
-				"obj-20::obj-36" : 				{
-					"parameter_longname" : "Gain[3]"
 				}
 ,
 				"obj-24::obj-2::obj-1::obj-1::obj-12::obj-70" : 				{
@@ -1330,6 +1315,14 @@
 					"parameter_longname" : "Dry/Wet[5]"
 				}
 ,
+				"obj-34::obj-30" : 				{
+					"parameter_longname" : "Duration[3]"
+				}
+,
+				"obj-4::obj-80" : 				{
+					"parameter_longname" : "live.numbox"
+				}
+,
 				"obj-5::obj-208" : 				{
 					"parameter_longname" : "live.numbox[1]"
 				}
@@ -1371,13 +1364,6 @@
 , 			{
 				"name" : "M4L.bal2~.maxpat",
 				"bootpath" : "C74:/patchers/m4l/Tools resources",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Normalization.maxpat",
-				"bootpath" : "~/Documents/Max 9/Packages/TS.Modular/code/subPatchers",
-				"patcherrelativepath" : "../TS.Modular/code/subPatchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -1786,13 +1772,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "p_env.maxpat",
-				"bootpath" : "~/Documents/Max 9/Packages/Tesserae/code",
-				"patcherrelativepath" : "./code",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "p_grain.maxpat",
 				"bootpath" : "~/Documents/Max 9/Packages/Tesserae/code",
 				"patcherrelativepath" : "./code",
@@ -1840,6 +1819,13 @@
 			}
 , 			{
 				"name" : "te.distortion.maxpat",
+				"bootpath" : "~/Documents/Max 9/Packages/Tesserae/patchers",
+				"patcherrelativepath" : "./patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "te.envelope.maxpat",
 				"bootpath" : "~/Documents/Max 9/Packages/Tesserae/patchers",
 				"patcherrelativepath" : "./patchers",
 				"type" : "JSON",
@@ -1937,13 +1923,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "te.polyenvelope.maxpat",
-				"bootpath" : "~/Documents/Max 9/Packages/Tesserae/patchers",
-				"patcherrelativepath" : "./patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "te.preset.maxpat",
 				"bootpath" : "~/Documents/Max 9/Packages/Tesserae/patchers",
 				"patcherrelativepath" : "./patchers",
@@ -2011,13 +1990,6 @@
 				"bootpath" : "~/Library/Application Support/Cycling '74/Max 9/Examples/max-tricks/notes-and-pitch/pitch-to-freq-ratio",
 				"patcherrelativepath" : "../../../../Library/Application Support/Cycling '74/Max 9/Examples/max-tricks/notes-and-pitch/pitch-to-freq-ratio",
 				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "tsMutableReson.gendsp",
-				"bootpath" : "~/Documents/Max 9/Packages/TS.Modular/code",
-				"patcherrelativepath" : "../TS.Modular/code",
-				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{

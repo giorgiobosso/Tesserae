@@ -408,7 +408,7 @@
 					"numinlets" : 7,
 					"numoutlets" : 5,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "", "", "", "", "int" ],
+					"outlettype" : [ "int", "int", "float", "", "int" ],
 					"patching_rect" : [ 237.705110281705856, 153.0, 340.857793092727661, 125.105262041091919 ],
 					"viewvisibility" : 1
 				}
@@ -442,6 +442,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 162.0, 402.0, 492.268013656139374, 193.876277685165405 ],
+					"varname" : "te.midiseq",
 					"viewvisibility" : 1
 				}
 
@@ -492,7 +493,7 @@
 
 			}
  ],
-		"originid" : "pat-10100",
+		"originid" : "pat-4422",
 		"parameters" : 		{
 			"obj-1::obj-100" : [ "View", "View", 0 ],
 			"obj-1::obj-12" : [ "Rate", "Rate", 0 ],
@@ -507,8 +508,8 @@
 			"obj-1::obj-30" : [ "Random", "Random", 0 ],
 			"obj-1::obj-4" : [ "Fold", "Fold", 0 ],
 			"obj-1::obj-47" : [ "Direction", "Direction", 4 ],
-			"obj-1::obj-55" : [ "livestep", "livestep", 0 ],
-			"obj-1::obj-7" : [ "Gate", "Gate", 0 ],
+			"obj-1::obj-55" : [ "livestep", "LiveStep", 0 ],
+			"obj-1::obj-7" : [ "Gate", "GateStep", 0 ],
 			"obj-1::obj-80" : [ "Reset", "Reset", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{

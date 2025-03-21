@@ -6,7 +6,7 @@ Developed and maintained by Giorgio Bosso, 2025.
 
 ## Overview
 
-**Tesserae** provides intuitive, modular tools for creative sound manipulation, inspired by modern techniques in electronic and experimental music. It includes various objects aimed at musicians and sound designers who work within Max MSP environments.
+**Tesserae** includes over 30 modules for creative sound manipulation, inspired by modern electronic and experimental music techniques. The collection is tailored specifically for musicians and sound designers working with Max MSP.
 
 ## Requirements
 
