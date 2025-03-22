@@ -19,16 +19,16 @@
 					"clickthrough" : 0,
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
-					"id" : "obj-34",
+					"id" : "obj-20",
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "te.envelope.maxpat",
 					"numinlets" : 5,
-					"numoutlets" : 1,
+					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 1247.0, 14.0, 169.345795780420303, 231.963133700191975 ],
+					"outlettype" : [ "multichannelsignal", "" ],
+					"patching_rect" : [ 1247.0, 14.0, 144.0, 215.963133700191975 ],
 					"varname" : "te.envelope",
 					"viewvisibility" : 1
 				}
@@ -503,7 +503,7 @@
 					"numoutlets" : 5,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "int", "int", "float", "", "int" ],
-					"patching_rect" : [ 1427.0, 14.0, 340.857793092727661, 125.105262041091919 ],
+					"patching_rect" : [ 1401.0, 14.0, 340.857793092727661, 125.105262041091919 ],
 					"viewvisibility" : 1
 				}
 
@@ -642,7 +642,7 @@
 			}
  ],
 		"lines" : [  ],
-		"originid" : "pat-416",
+		"originid" : "pat-64",
 		"parameters" : 		{
 			"obj-11::obj-2" : [ "Pitch[1]", "Pitch", 0 ],
 			"obj-12::obj-100" : [ "View", "View", 0 ],
@@ -691,6 +691,7 @@
 			"obj-1::obj-48" : [ "Dry/Wet", "Dry/Wet", 0 ],
 			"obj-1::obj-50" : [ "Type-1", "Type-1", 0 ],
 			"obj-1::obj-55" : [ "Type-2", "Type-2", 0 ],
+			"obj-20::obj-30" : [ "Duration[3]", "Duration", 0 ],
 			"obj-21::obj-67" : [ "Index", "Index", 0 ],
 			"obj-21::obj-68" : [ "Preset-1", "Preset-1", 0 ],
 			"obj-21::obj-70" : [ "Preset-2", "Preset-2", 0 ],
@@ -784,7 +785,6 @@
 			"obj-31::obj-3" : [ "Dry/Wet[5]", "Dry/Wet", 0 ],
 			"obj-31::obj-50" : [ "Vowel", "Vowel", 0 ],
 			"obj-31::obj-54" : [ "Cutoff", "Cutoff", 0 ],
-			"obj-34::obj-30" : [ "Duration[3]", "Duration", 0 ],
 			"obj-3::obj-128" : [ "Glide", "Glide", 0 ],
 			"obj-3::obj-44" : [ "Timbre", "Timbre", 0 ],
 			"obj-3::obj-45" : [ "Color", "Color", 0 ],
@@ -858,6 +858,10 @@
 ,
 				"obj-18::obj-97" : 				{
 					"parameter_longname" : "Length[1]"
+				}
+,
+				"obj-20::obj-30" : 				{
+					"parameter_longname" : "Duration[3]"
 				}
 ,
 				"obj-24::obj-2::obj-1::obj-1::obj-12::obj-70" : 				{
@@ -1315,10 +1319,6 @@
 					"parameter_longname" : "Dry/Wet[5]"
 				}
 ,
-				"obj-34::obj-30" : 				{
-					"parameter_longname" : "Duration[3]"
-				}
-,
 				"obj-4::obj-80" : 				{
 					"parameter_longname" : "live.numbox"
 				}
@@ -1364,6 +1364,13 @@
 , 			{
 				"name" : "M4L.bal2~.maxpat",
 				"bootpath" : "C74:/patchers/m4l/Tools resources",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Normalization.maxpat",
+				"bootpath" : "~/Documents/Max 9/Packages/Tesserae/code",
+				"patcherrelativepath" : "./code",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -1990,6 +1997,13 @@
 				"bootpath" : "~/Library/Application Support/Cycling '74/Max 9/Examples/max-tricks/notes-and-pitch/pitch-to-freq-ratio",
 				"patcherrelativepath" : "../../../../Library/Application Support/Cycling '74/Max 9/Examples/max-tricks/notes-and-pitch/pitch-to-freq-ratio",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "tsMutableReson.gendsp",
+				"bootpath" : "~/Documents/Max 9/Packages/Tesserae/code",
+				"patcherrelativepath" : "./code",
+				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{

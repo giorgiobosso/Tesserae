@@ -21,7 +21,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 422.345795780420303, 598.0, 50.0, 22.0 ]
+					"patching_rect" : [ 397.0, 570.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -38,7 +38,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 598.0, 463.5, 20.0, 20.0 ],
+					"patching_rect" : [ 573.0, 463.0, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"saved_attribute_attributes" : 					{
 						"bgcolor" : 						{
@@ -61,8 +61,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 447.0, 461.0, 149.0, 25.0 ],
-					"presentation_linecount" : 2,
+					"patching_rect" : [ 422.0, 461.0, 149.0, 25.0 ],
 					"text" : "Trigger the envelope"
 				}
 
@@ -116,7 +115,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 101.0, 312.5, 150.0, 33.0 ],
+					"patching_rect" : [ 99.0, 313.0, 150.0, 33.0 ],
 					"text" : "Chooses the envelope shape"
 				}
 
@@ -128,7 +127,7 @@
 					"maxclass" : "live.line",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 205.0, 331.0, 86.5, 27.0 ]
+					"patching_rect" : [ 203.0, 331.0, 90.5, 33.0 ]
 				}
 
 			}
@@ -139,7 +138,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 97.0, 453.0, 150.0, 33.0 ],
+					"patching_rect" : [ 95.0, 453.0, 150.0, 33.0 ],
 					"text" : "Manually triggers the envelope"
 				}
 
@@ -151,7 +150,7 @@
 					"maxclass" : "live.line",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 209.0, 472.0, 86.5, 27.0 ]
+					"patching_rect" : [ 207.0, 472.0, 86.5, 27.0 ]
 				}
 
 			}
@@ -161,7 +160,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 69.0, 538.0, 150.0, 20.0 ],
+					"patching_rect" : [ 67.0, 538.0, 150.0, 20.0 ],
 					"text" : "Enable/Disable Re-Trigger"
 				}
 
@@ -173,7 +172,7 @@
 					"maxclass" : "live.line",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 203.75, 521.0, 89.0, 24.0 ]
+					"patching_rect" : [ 201.0, 521.0, 89.0, 24.0 ]
 				}
 
 			}
@@ -184,7 +183,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 486.0, 545.0, 150.0, 33.0 ],
+					"patching_rect" : [ 467.0, 531.0, 150.0, 33.0 ],
 					"text" : "Adjusts the length of the envelope"
 				}
 
@@ -196,7 +195,7 @@
 					"maxclass" : "live.line",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 416.0, 521.0, 74.0, 33.0 ]
+					"patching_rect" : [ 397.0, 507.0, 74.0, 33.0 ]
 				}
 
 			}
@@ -230,7 +229,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 478.0, 285.0, 150.0, 33.0 ],
+					"patching_rect" : [ 453.0, 298.0, 150.0, 33.0 ],
 					"text" : "Applies the selected envelope type"
 				}
 
@@ -242,7 +241,7 @@
 					"maxclass" : "live.line",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 422.0, 300.0, 54.0, 58.0 ]
+					"patching_rect" : [ 397.0, 313.0, 54.0, 58.0 ]
 				}
 
 			}
@@ -429,7 +428,7 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "multichannelsignal", "" ],
-					"patching_rect" : [ 272.0, 322.0, 169.345795780420303, 231.963133700191975 ],
+					"patching_rect" : [ 272.0, 329.036866299808025, 144.0, 215.963133700191975 ],
 					"varname" : "te.envelope",
 					"viewvisibility" : 1
 				}
@@ -472,7 +471,7 @@
 
 			}
  ],
-		"originid" : "pat-3876",
+		"originid" : "pat-52",
 		"parameters" : 		{
 			"obj-1::obj-30" : [ "Duration", "Duration", 0 ],
 			"parameterbanks" : 			{

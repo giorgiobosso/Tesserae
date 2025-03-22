@@ -112,7 +112,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 84.931500673294067, 111.0, 52.0, 30.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 13.313609808683395, 196.449709177017212, 62.130179107189178, 26.106508314609528 ],
+					"presentation_rect" : [ 12.499999761581421, 182.065213918685913, 54.347825050354004, 26.086956024169922 ],
 					"saved_attribute_attributes" : 					{
 						"bgoncolor" : 						{
 							"expression" : "themecolor.theme_selectioncolor"
@@ -204,7 +204,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 618.0, 350.0, 142.0, 10.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 11.829521596431732, 146.0, 151.340956807136536, 10.130719274282455 ],
+					"presentation_rect" : [ 11.956521511077881, 138.04347562789917, 122.826084613800049, 10.0 ],
 					"prototypename" : "rectangle horizontal",
 					"saved_attribute_attributes" : 					{
 						"knobcolor" : 						{
@@ -304,7 +304,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 523.012344002723694, 107.395060002803802, 41.975311994552612, 21.604939997196198 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 117.0, 29.0, 46.153850555419922, 19.846171855926514 ],
+					"presentation_rect" : [ 88.846149444580078, 29.076914072036743, 46.153850555419922, 19.846171855926514 ],
 					"rounded" : 15.0,
 					"saved_attribute_attributes" : 					{
 						"bgoncolor" : 						{
@@ -330,7 +330,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 320.5, 81.0, 41.0, 48.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 100.000002562999725, 171.005921542644501, 41.0, 48.0 ],
+					"presentation_rect" : [ 80.434781074523926, 156.521736145019531, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_exponent" : 3.0,
@@ -365,7 +365,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 186.0, 114.358029991388321, 42.35966569185257, 23.283940017223358 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 13.017751812934875, 164.497045636177063, 62.721895098686218, 24.852071642875671 ],
+					"presentation_rect" : [ 11.956521511077881, 151.630431890487671, 54.891303300857544, 24.999999523162842 ],
 					"rounded" : 15.0,
 					"saved_attribute_attributes" : 					{
 						"bgoncolor" : 						{
@@ -401,7 +401,7 @@
 					"patching_rect" : [ 475.5, 384.0, 137.0, 80.0 ],
 					"pointsize" : 1.0,
 					"presentation" : 1,
-					"presentation_rect" : [ 23.0, 58.0, 131.0, 78.0 ],
+					"presentation_rect" : [ 23.0, 58.0, 102.0, 70.0 ],
 					"saved_attribute_attributes" : 					{
 						"linecolor" : 						{
 							"expression" : "themecolor.theme_color"
@@ -426,7 +426,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 618.0, 384.0, 142.0, 80.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 13.0, 51.0, 150.759257853031158, 93.0 ],
+					"presentation_rect" : [ 13.0, 51.0, 122.0, 85.0 ],
 					"proportion" : 0.5,
 					"rounded" : 20
 				}
@@ -445,7 +445,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 486.0, 81.0, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 13.0, 29.0, 101.538471221923828, 20.0 ],
+					"presentation_rect" : [ 13.043478012084961, 29.0, 72.282607316970825, 20.0 ],
 					"varname" : "Env-Type"
 				}
 
@@ -462,7 +462,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 87.037043988704681, 646.913631916046143, 89.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.990654230117798, 1.036866299808025, 169.345795780420303, 18.0 ],
+					"presentation_rect" : [ 3.0, 1.036866299808025, 144.0, 18.0 ],
 					"saved_attribute_attributes" : 					{
 						"bgcolor" : 						{
 							"expression" : "themecolor.theme_stripecolor"
@@ -488,7 +488,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 86.41975998878479, 667.284003913402557, 90.0, 48.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.0, 9.0, 169.0, 224.0 ],
+					"presentation_rect" : [ 3.0, 9.0, 143.0, 208.0 ],
 					"proportion" : 0.5,
 					"saved_attribute_attributes" : 					{
 						"bgfillcolor" : 						{
@@ -562,7 +562,7 @@
 					"patching_rect" : [ 138.0, 585.222564280033112, 56.0, 22.0 ],
 					"restore" : 					{
 						"Duration" : [ 1000.000000000000114 ],
-						"Env-Type" : [ 0 ],
+						"Env-Type" : [ 3 ],
 						"EnvFunction" : [ 100.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1.0, 1.0, 0, 0.0, 100.0, 0.0, 0, -0.3, "curve" ],
 						"Re-Trigger" : [ 0 ]
 					}
@@ -754,7 +754,7 @@
 
 							}
  ],
-						"originid" : "pat-3890"
+						"originid" : "pat-50"
 					}
 ,
 					"patching_rect" : [ 475.5, 209.0, 61.0, 22.0 ],
@@ -1252,7 +1252,7 @@
 
 			}
  ],
-		"originid" : "pat-3888",
+		"originid" : "pat-48",
 		"parameters" : 		{
 			"obj-30" : [ "Duration", "Duration", 0 ],
 			"parameterbanks" : 			{
