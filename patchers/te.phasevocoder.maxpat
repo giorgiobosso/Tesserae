@@ -10,10 +10,32 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1474.0, 87.0, 1852.0, 959.0 ],
+		"rect" : [ 34.0, 87.0, 1372.0, 779.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-3",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "", "", "", "" ],
+					"patching_rect" : [ 592.5, 722.0, 56.0, 22.0 ],
+					"restore" : 					{
+						"Interp" : [ 0.0 ],
+						"Phase Noise" : [ 30.0 ],
+						"Pitch" : [ 60.0 ],
+						"Position" : [ 0.0 ],
+						"Selector" : [ 0.0, 100.0 ],
+						"active" : [ 0 ]
+					}
+,
+					"text" : "autopattr",
+					"varname" : "u326032281"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-51",
 					"maxclass" : "newobj",
@@ -769,7 +791,7 @@
 
 							}
  ],
-						"originid" : "pat-833",
+						"originid" : "pat-67663",
 						"bgcolor" : [ 0.56078431372549, 0.56078431372549, 0.56078431372549, 1.0 ],
 						"editing_bgcolor" : [ 0.56078431372549, 0.56078431372549, 0.56078431372549, 1.0 ]
 					}
@@ -1932,7 +1954,7 @@
 
 			}
  ],
-		"originid" : "pat-831",
+		"originid" : "pat-67661",
 		"parameters" : 		{
 			"obj-10" : [ "Interp", "Interp", 0 ],
 			"obj-24" : [ "Position", "Position", 0 ],
