@@ -28,7 +28,7 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "multichannelsignal", "" ],
-					"patching_rect" : [ 1243.0, 481.745702717453241, 169.345795780420303, 231.963133700191975 ],
+					"patching_rect" : [ 1242.929232180118561, 481.818158268928528, 148.484841227531433, 219.191908478736877 ],
 					"varname" : "te.envelope[1]",
 					"viewvisibility" : 1
 				}
@@ -50,7 +50,7 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "multichannelsignal", "" ],
-					"patching_rect" : [ 938.0, 482.0, 169.345795780420303, 231.963133700191975 ],
+					"patching_rect" : [ 937.878742039203644, 481.818158268928528, 147.97979074716568, 219.191908478736877 ],
 					"varname" : "te.envelope",
 					"viewvisibility" : 1
 				}
@@ -155,7 +155,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 1417.0, 482.0, 69.325156390666962, 227.711794339120388 ],
+					"patching_rect" : [ 1394.949426770210266, 482.0, 69.325156390666962, 227.711794339120388 ],
 					"viewvisibility" : 1
 				}
 
@@ -556,7 +556,7 @@
 
 							}
  ],
-						"originid" : "pat-3916"
+						"originid" : "pat-16"
 					}
 ,
 					"patching_rect" : [ 39.0, 383.0, 96.0, 22.0 ],
@@ -717,7 +717,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 1114.0, 482.0, 69.325156390666962, 227.711794339120388 ],
+					"patching_rect" : [ 1089.393886148929596, 482.0, 69.325156390666962, 227.711794339120388 ],
 					"viewvisibility" : 1
 				}
 
@@ -1147,7 +1147,7 @@
 
 			}
  ],
-		"originid" : "pat-3912",
+		"originid" : "pat-4",
 		"parameters" : 		{
 			"obj-10::obj-13::obj-1" : [ "mc.live.gain~[3]", "mc.live.gain~", 0 ],
 			"obj-10::obj-13::obj-2" : [ "mc.live.gain~[2]", "mc.live.gain~", 0 ],
