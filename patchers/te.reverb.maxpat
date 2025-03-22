@@ -15,6 +15,26 @@
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-7",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "", "", "", "" ],
+					"patching_rect" : [ 244.0, 479.0, 56.0, 22.0 ],
+					"restore" : 					{
+						"Decay" : [ 100.0 ],
+						"Depth" : [ 0.0 ],
+						"Dry/Wet" : [ 50.0 ],
+						"Pan" : [ 0.0 ]
+					}
+,
+					"text" : "autopattr",
+					"varname" : "u573019449"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-1",
 					"linecount" : 5,
 					"maxclass" : "comment",
@@ -660,7 +680,7 @@
 
 			}
  ],
-		"originid" : "pat-18179",
+		"originid" : "pat-48431",
 		"parameters" : 		{
 			"obj-2::obj-10" : [ "Damp Active", "Active", 0 ],
 			"obj-2::obj-108::obj-90" : [ "number", "number", 0 ],
