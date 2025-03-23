@@ -84,7 +84,8 @@
 					"text" : "Active",
 					"texton" : "Active",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"usebgoncolor" : 1
+					"usebgoncolor" : 1,
+					"varname" : "Active"
 				}
 
 			}
@@ -130,6 +131,7 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 410.569105446338654, 199.99999988079071, 56.0, 22.0 ],
 					"restore" : 					{
+						"Active" : [ 0 ],
 						"Rate" : [ 0.2 ],
 						"Waveform" : [ 1 ]
 					}
@@ -997,7 +999,7 @@
 
 							}
  ],
-						"originid" : "pat-704"
+						"originid" : "pat-6426"
 					}
 ,
 					"patching_rect" : [ 156.097560882568359, 199.99999988079071, 245.0, 22.0 ],
@@ -1213,7 +1215,7 @@
 
 			}
  ],
-		"originid" : "pat-702",
+		"originid" : "pat-6424",
 		"parameters" : 		{
 			"obj-17" : [ "Waveform", "Waveform", 0 ],
 			"obj-20" : [ "Rate", "Rate", 0 ],
