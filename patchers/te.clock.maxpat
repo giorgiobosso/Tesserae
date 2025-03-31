@@ -131,19 +131,20 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 60 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.numbox",
+							"parameter_linknames" : 1,
+							"parameter_longname" : "Bpm",
 							"parameter_mmax" : 999.0,
 							"parameter_mmin" : 20.0,
 							"parameter_modmode" : 3,
 							"parameter_osc_name" : "<default>",
-							"parameter_shortname" : "live.numbox",
+							"parameter_shortname" : "Bpm",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 1
 						}
 
 					}
 ,
-					"varname" : "bpm"
+					"varname" : "Bpm"
 				}
 
 			}
@@ -655,7 +656,7 @@
 					"texton" : "Ext",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"usebgoncolor" : 1,
-					"varname" : "external"
+					"varname" : "External"
 				}
 
 			}
@@ -690,17 +691,18 @@
 							"parameter_enum" : [ "x32", "x16", "x8", "x4", "x2", "1", ":2", ":4", ":8", ":16", ":32" ],
 							"parameter_initial" : [ 5.0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.menu",
+							"parameter_linknames" : 1,
+							"parameter_longname" : "Rate",
 							"parameter_mmax" : 10,
 							"parameter_modmode" : 0,
 							"parameter_osc_name" : "<default>",
-							"parameter_shortname" : "live.menu",
+							"parameter_shortname" : "Rate",
 							"parameter_type" : 2
 						}
 
 					}
 ,
-					"varname" : "rate"
+					"varname" : "Rate"
 				}
 
 			}
@@ -745,7 +747,7 @@
 					"texton" : "Swing",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"usebgoncolor" : 1,
-					"varname" : "swing"
+					"varname" : "Swing"
 				}
 
 			}
@@ -775,7 +777,7 @@
 					"texton" : "Euclid",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"usebgoncolor" : 1,
-					"varname" : "euclid"
+					"varname" : "Euclid"
 				}
 
 			}
@@ -830,7 +832,8 @@
 					"text" : "Start",
 					"texton" : "Start",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"usebgoncolor" : 1
+					"usebgoncolor" : 1,
+					"varname" : "Start"
 				}
 
 			}
@@ -906,7 +909,8 @@
 					}
 ,
 					"svg" : "",
-					"uncheckedcolor" : [ 0.458595350062755, 0.458595237564901, 0.458595266962388, 1.0 ]
+					"uncheckedcolor" : [ 0.458595350062755, 0.458595237564901, 0.458595266962388, 1.0 ],
+					"varname" : "gateBpm"
 				}
 
 			}
@@ -934,7 +938,8 @@
 					}
 ,
 					"svg" : "",
-					"uncheckedcolor" : [ 0.458595350062755, 0.458595237564901, 0.458595266962388, 1.0 ]
+					"uncheckedcolor" : [ 0.458595350062755, 0.458595237564901, 0.458595266962388, 1.0 ],
+					"varname" : "gateHHa"
 				}
 
 			}
@@ -962,7 +967,8 @@
 					}
 ,
 					"svg" : "",
-					"uncheckedcolor" : [ 0.458595350062755, 0.458595237564901, 0.458595266962388, 1.0 ]
+					"uncheckedcolor" : [ 0.458595350062755, 0.458595237564901, 0.458595266962388, 1.0 ],
+					"varname" : "gateSDa"
 				}
 
 			}
@@ -990,7 +996,8 @@
 					}
 ,
 					"svg" : "",
-					"uncheckedcolor" : [ 0.458595350062755, 0.458595237564901, 0.458595266962388, 1.0 ]
+					"uncheckedcolor" : [ 0.458595350062755, 0.458595237564901, 0.458595266962388, 1.0 ],
+					"varname" : "gateBDa"
 				}
 
 			}
@@ -1018,7 +1025,8 @@
 					}
 ,
 					"svg" : "",
-					"uncheckedcolor" : [ 0.458595350062755, 0.458595237564901, 0.458595266962388, 1.0 ]
+					"uncheckedcolor" : [ 0.458595350062755, 0.458595237564901, 0.458595266962388, 1.0 ],
+					"varname" : "gateHHt"
 				}
 
 			}
@@ -1046,7 +1054,8 @@
 					}
 ,
 					"svg" : "",
-					"uncheckedcolor" : [ 0.458595350062755, 0.458595237564901, 0.458595266962388, 1.0 ]
+					"uncheckedcolor" : [ 0.458595350062755, 0.458595237564901, 0.458595266962388, 1.0 ],
+					"varname" : "gateSDt"
 				}
 
 			}
@@ -1074,7 +1083,8 @@
 					}
 ,
 					"svg" : "",
-					"uncheckedcolor" : [ 0.458595350062755, 0.458595237564901, 0.458595266962388, 1.0 ]
+					"uncheckedcolor" : [ 0.458595350062755, 0.458595237564901, 0.458595266962388, 1.0 ],
+					"varname" : "gateBDt"
 				}
 
 			}
@@ -1514,7 +1524,7 @@
 
 							}
  ],
-						"originid" : "pat-150"
+						"originid" : "pat-3440"
 					}
 ,
 					"patching_rect" : [ 340.214285714285722, 423.0, 42.0, 22.0 ],
@@ -1633,17 +1643,25 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 1064.464285714285779, 71.0, 56.0, 22.0 ],
 					"restore" : 					{
+						"Bpm" : [ 60.0 ],
 						"Chaos/Swing" : [ 0.5 ],
 						"Density-1" : [ 0.5 ],
 						"Density-2" : [ 0.5 ],
 						"Density-3" : [ 0.5 ],
+						"Euclid" : [ 0 ],
+						"External" : [ 0 ],
 						"MapX" : [ 0.5 ],
 						"MapY" : [ 0.5 ],
-						"bpm" : [ 60.0 ],
-						"euclid" : [ 0 ],
-						"external" : [ 0 ],
-						"rate" : [ 5.0 ],
-						"swing" : [ 0 ]
+						"Rate" : [ 5.0 ],
+						"Start" : [ 0 ],
+						"Swing" : [ 0 ],
+						"gateBDa" : [ 0 ],
+						"gateBDt" : [ 0 ],
+						"gateBpm" : [ 0 ],
+						"gateHHa" : [ 0 ],
+						"gateHHt" : [ 0 ],
+						"gateSDa" : [ 0 ],
+						"gateSDt" : [ 0 ]
 					}
 ,
 					"text" : "autopattr",
@@ -1906,7 +1924,7 @@
 
 							}
  ],
-						"originid" : "pat-152"
+						"originid" : "pat-3442"
 					}
 ,
 					"patching_rect" : [ 978.214285714285779, 427.0, 85.0, 22.0 ],
@@ -3651,16 +3669,16 @@
 
 			}
  ],
-		"originid" : "pat-148",
+		"originid" : "pat-3438",
 		"parameters" : 		{
-			"obj-162" : [ "live.menu", "live.menu", 0 ],
+			"obj-162" : [ "Rate", "Rate", 0 ],
 			"obj-198" : [ "MapX", "MapX", 0 ],
 			"obj-199" : [ "MapY", "MapY", 0 ],
 			"obj-200" : [ "Chaos/Swing", "Chaos/Swing", 0 ],
 			"obj-202" : [ "Density-1", "Density-1", 0 ],
 			"obj-203" : [ "Density-2", "Density-2", 0 ],
 			"obj-204" : [ "Density-3", "Density-3", 0 ],
-			"obj-208" : [ "live.numbox", "live.numbox", 0 ],
+			"obj-208" : [ "Bpm", "Bpm", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
