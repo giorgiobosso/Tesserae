@@ -20,11 +20,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 411.18967068195343, 318.655188918113708, 56.0, 22.0 ],
+					"patching_rect" : [ 420.689677238464355, 337.293121218681335, 56.0, 22.0 ],
 					"restore" : 					{
-						"tempo" : [ 60.0 ],
-						"timesig-beats" : [ 4 ],
-						"timesig-unit" : [ "4" ]
+						"tempo" : [ 60.0 ]
 					}
 ,
 					"text" : "autopattr",
@@ -2394,24 +2392,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-23", 0 ],
-					"order" : 1,
-					"source" : [ "obj-62", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-26", 0 ],
-					"order" : 0,
-					"source" : [ "obj-62", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-4", 0 ],
-					"order" : 2,
 					"source" : [ "obj-62", 0 ]
 				}
 
@@ -2725,7 +2706,7 @@
 
 			}
  ],
-		"originid" : "pat-3336",
+		"originid" : "pat-6968",
 		"dependency_cache" : [  ],
 		"autosave" : 0,
 		"styles" : [ 			{
