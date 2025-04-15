@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 4,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -23,8 +23,9 @@
 					"patching_rect" : [ 1064.0, 429.0, 56.0, 22.0 ],
 					"restore" : 					{
 						"Direction" : [ 0.0 ],
-						"GateStep" : [ 1, 16, 0, 1, 12, 0, 16, 59.0, 80.0, 0, 0, 60, 101, 4, 66, 31, 63, 83, 4, 64, 31, 67, 57, 4, 64, 31, 74, 78, 4, 64, 31, 70, 35, 4, 64, 30, 67, 75, 4, 63, 27, 60, 114, 4, 67, 26, 70, 75, 4, 75, 26, 67, 59, 4, 111, 26, 79, 80, 4, 125, 27, 60, 100, 4, 117, 29, 70, 84, 4, 97, 42, 60, 114, 4, 44, 47, 63, 98, 4, 16, 117, 70, 97, 4, 23, 59, 62, 103, 4, 37, 31 ],
+						"GateStep" : [ 1, 16, 0, 1, 12, 0, 16, 59.0, 80.0, 0, 0, 60, 101, 4, 1, 31, 63, 83, 4, 1, 31, 67, 57, 4, 1, 31, 74, 78, 4, 1, 31, 70, 35, 4, 1, 30, 67, 75, 4, 1, 27, 60, 114, 4, 1, 26, 70, 75, 4, 1, 26, 67, 59, 4, 1, 26, 79, 80, 4, 1, 27, 60, 100, 4, 1, 29, 70, 84, 4, 1, 42, 60, 114, 4, 1, 47, 63, 98, 4, 1, 117, 70, 97, 4, 1, 59, 62, 103, 4, 1, 31 ],
 						"LiveStep" : [ 1, 16, 7, 1, 12, 0, 16, 59.0, 80.0, 0, 0, 60, 101, 4, 66, 31, 63, 83, 4, 64, 31, 67, 57, 4, 64, 31, 74, 78, 4, 64, 31, 70, 35, 4, 64, 30, 67, 75, 4, 63, 27, 60, 114, 4, 67, 26, 70, 75, 4, 75, 26, 67, 59, 4, 111, 26, 79, 80, 4, 125, 27, 60, 100, 4, 117, 29, 70, 84, 4, 97, 42, 60, 114, 4, 44, 47, 63, 98, 4, 16, 117, 70, 97, 4, 23, 59, 62, 103, 4, 37, 31, 60, 62, 63, 67, 70, 74, 79 ],
+						"Play" : [ 0 ],
 						"Rate" : [ 7.0 ],
 						"Swing" : [ 0.0 ]
 					}
@@ -374,7 +375,8 @@
 					"text" : "Play",
 					"texton" : "Play",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"usebgoncolor" : 1
+					"usebgoncolor" : 1,
+					"varname" : "Play"
 				}
 
 			}
@@ -579,7 +581,6 @@
 							"parameter_longname" : "Re-Step",
 							"parameter_mmax" : 15,
 							"parameter_modmode" : 0,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "Re-Step",
 							"parameter_type" : 2,
 							"parameter_units" : "1",
@@ -658,7 +659,6 @@
 							"parameter_longname" : "Octv down",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "Octv down",
 							"parameter_type" : 2
 						}
@@ -734,7 +734,6 @@
 							"parameter_longname" : "Octv up",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "Octv up",
 							"parameter_type" : 2
 						}
@@ -760,7 +759,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 4,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1996,7 +1995,7 @@
 
 							}
  ],
-						"originid" : "pat-3810",
+						"originid" : "pat-31",
 						"bgcolor" : [ 0.56078431372549, 0.56078431372549, 0.56078431372549, 1.0 ],
 						"editing_bgcolor" : [ 0.56078431372549, 0.56078431372549, 0.56078431372549, 1.0 ]
 					}
@@ -2004,7 +2003,6 @@
 					"patching_rect" : [ 190.0, 1099.0, 54.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"editing_bgcolor" : [ 0.56078431372549, 0.56078431372549, 0.56078431372549, 1.0 ],
-						"globalpatchername" : "",
 						"locked_bgcolor" : [ 0.56078431372549, 0.56078431372549, 0.56078431372549, 1.0 ]
 					}
 ,
@@ -2077,7 +2075,6 @@
 							"parameter_longname" : "Left",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "Left",
 							"parameter_type" : 2
 						}
@@ -2191,7 +2188,6 @@
 							"parameter_longname" : "Right",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "Right",
 							"parameter_type" : 2
 						}
@@ -2460,7 +2456,6 @@
 							"parameter_longname" : "Down",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "Down",
 							"parameter_type" : 2
 						}
@@ -2526,7 +2521,6 @@
 							"parameter_longname" : "Up",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "Up",
 							"parameter_type" : 2
 						}
@@ -2677,7 +2671,6 @@
 							"parameter_invisible" : 1,
 							"parameter_longname" : "LiveStep",
 							"parameter_modmode" : 0,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "LiveStep",
 							"parameter_type" : 3
 						}
@@ -2752,7 +2745,6 @@
 							"parameter_longname" : "View",
 							"parameter_mmax" : 3,
 							"parameter_modmode" : 0,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "View",
 							"parameter_type" : 2,
 							"parameter_unitstyle" : 9
@@ -2834,7 +2826,6 @@
 							"parameter_longname" : "Swing",
 							"parameter_mmax" : 100.0,
 							"parameter_modmode" : 0,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "Swing",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 5
@@ -2946,7 +2937,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 4,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3156,7 +3147,7 @@
 
 							}
  ],
-						"originid" : "pat-3812"
+						"originid" : "pat-33"
 					}
 ,
 					"patching_rect" : [ 871.0, 650.0, 129.0, 22.0 ],
@@ -3278,7 +3269,6 @@
 							"parameter_longname" : "Fold",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "Fold",
 							"parameter_type" : 2
 						}
@@ -3361,7 +3351,6 @@
 							"parameter_longname" : "Reset",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "Reset",
 							"parameter_type" : 2
 						}
@@ -3480,7 +3469,6 @@
 							"parameter_longname" : "Random",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "Random",
 							"parameter_type" : 2
 						}
@@ -3657,7 +3645,6 @@
 							"parameter_invisible" : 1,
 							"parameter_longname" : "GateStep",
 							"parameter_modmode" : 0,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "GateStep",
 							"parameter_type" : 3
 						}
@@ -4031,7 +4018,6 @@
 							"parameter_longname" : "Rate",
 							"parameter_mmax" : 20,
 							"parameter_modmode" : 0,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "Rate",
 							"parameter_speedlim" : 0.0,
 							"parameter_type" : 2
@@ -4287,7 +4273,6 @@
 							"parameter_mmax" : 4,
 							"parameter_modmode" : 0,
 							"parameter_order" : 4,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "Direction",
 							"parameter_speedlim" : 0.0,
 							"parameter_type" : 2,
@@ -4720,6 +4705,14 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-12", 0 ],
+					"order" : 3,
+					"source" : [ "obj-104", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-123", 0 ],
 					"order" : 2,
 					"source" : [ "obj-104", 0 ]
 				}
@@ -4736,7 +4729,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-47", 0 ],
-					"order" : 3,
+					"order" : 4,
 					"source" : [ "obj-104", 0 ]
 				}
 
@@ -4744,7 +4737,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-55", 0 ],
-					"order" : 4,
+					"order" : 5,
 					"source" : [ "obj-104", 0 ]
 				}
 
@@ -6920,7 +6913,7 @@
 
 			}
  ],
-		"originid" : "pat-3808",
+		"originid" : "pat-29",
 		"parameters" : 		{
 			"obj-100" : [ "View", "View", 0 ],
 			"obj-12" : [ "Rate", "Rate", 0 ],
