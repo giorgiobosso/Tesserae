@@ -15,13 +15,42 @@
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-83",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 162.401031017303467, 60.063417423516512, 58.0, 22.0 ],
+					"text" : "loadbang"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-81",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "", "", "", "" ],
+					"patching_rect" : [ 163.401031017303467, 89.0, 56.0, 22.0 ],
+					"restore" : 					{
+						"MatrixSignal" : [ 0, 0, 0 ]
+					}
+,
+					"text" : "autopattr",
+					"varname" : "u238001920"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-1",
 					"linecount" : 5,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 884.176472614793283, 835.0, 206.0, 74.0 ],
-					"text" : "te.matrix\n\nTesserae by Giorgio Bosso © 2025\n\nhttps://linktr.ee/giorgiobosso"
+					"patching_rect" : [ 894.0, 835.0, 206.0, 74.0 ],
+					"text" : "te.matrixsignal\n\nTesserae by Giorgio Bosso © 2025\n\nhttps://linktr.ee/giorgiobosso"
 				}
 
 			}
@@ -790,7 +819,8 @@
 					"patching_rect" : [ 19.0, 140.0, 258.0, 258.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 19.51663202047348, 37.936507284641266, 258.0, 258.0 ],
-					"rows" : 16
+					"rows" : 16,
+					"varname" : "MatrixSignal"
 				}
 
 			}
@@ -1371,7 +1401,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 793.426470588235361, 835.0, 96.0, 18.0 ],
+					"patching_rect" : [ 793.0, 835.0, 90.426470588235361, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ -3.076923370361328, 0.226244330406189, 286.153873443603516, 18.0 ],
 					"saved_attribute_attributes" : 					{
@@ -1381,7 +1411,7 @@
 
 					}
 ,
-					"text" : "MATRIX",
+					"text" : "MATRIX-SIGNAL",
 					"textcolor" : [ 0.870588, 0.415686, 0.062745, 1.0 ],
 					"textjustification" : 1
 				}
@@ -1799,7 +1829,21 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
+					"source" : [ "obj-81", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-3", 0 ],
 					"source" : [ "obj-82", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-82", 0 ],
+					"source" : [ "obj-83", 0 ]
 				}
 
 			}
@@ -1915,7 +1959,7 @@
 
 			}
  ],
-		"originid" : "pat-550",
+		"originid" : "pat-156",
 		"dependency_cache" : [  ],
 		"autosave" : 0,
 		"styles" : [ 			{

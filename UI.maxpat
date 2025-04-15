@@ -19,6 +19,50 @@
 					"clickthrough" : 0,
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
+					"id" : "obj-25",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "te.matrixdata.maxpat",
+					"numinlets" : 6,
+					"numoutlets" : 4,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "", "", "", "" ],
+					"patching_rect" : [ 428.0, 371.0, 95.270263910293579, 111.378371477127075 ],
+					"varname" : "te.matrixdata",
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-10",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "te.matrixsignal.maxpat",
+					"numinlets" : 18,
+					"numoutlets" : 16,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal" ],
+					"patching_rect" : [ 533.0, 371.0, 286.153873443603516, 301.773755669593811 ],
+					"varname" : "te.matrixsignal",
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
 					"id" : "obj-20",
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
@@ -50,7 +94,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 995.0, 1020.0, 102.647063106298447, 133.840754508972168 ],
+					"patching_rect" : [ 995.0, 1042.0, 102.647063106298447, 133.840754508972168 ],
 					"varname" : "te.vowelfilter",
 					"viewvisibility" : 1
 				}
@@ -72,7 +116,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 910.0, 1020.0, 69.325156390666962, 227.711794339120388 ],
+					"patching_rect" : [ 910.0, 1042.0, 69.325156390666962, 227.711794339120388 ],
 					"viewvisibility" : 1
 				}
 
@@ -93,7 +137,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 721.0, 1020.0, 176.890745759010315, 136.151252865791321 ],
+					"patching_rect" : [ 721.0, 1042.0, 176.890745759010315, 136.151252865791321 ],
 					"varname" : "te.sinusoid",
 					"viewvisibility" : 1
 				}
@@ -115,7 +159,7 @@
 					"numoutlets" : 3,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 380.0, 1020.0, 334.098357170820236, 212.734220236539841 ],
+					"patching_rect" : [ 380.0, 1042.0, 334.098357170820236, 212.734220236539841 ],
 					"varname" : "te.sequencer",
 					"viewvisibility" : 1
 				}
@@ -137,7 +181,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 245.0, 1020.0, 122.072289109230042, 215.904109597206116 ],
+					"patching_rect" : [ 245.0, 1042.0, 122.072289109230042, 215.904109597206116 ],
 					"varname" : "te.rings",
 					"viewvisibility" : 1
 				}
@@ -159,7 +203,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 9.0, 1020.0, 227.59769731760025, 89.699198633432388 ],
+					"patching_rect" : [ 9.0, 1042.0, 227.59769731760025, 89.699198633432388 ],
 					"varname" : "te.reverb",
 					"viewvisibility" : 1
 				}
@@ -180,7 +224,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 1338.0, 699.0, 107.526886463165283, 148.343214817345142 ],
+					"patching_rect" : [ 1569.0, 720.0, 107.526886463165283, 148.343214817345142 ],
 					"viewvisibility" : 1
 				}
 
@@ -201,7 +245,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1209.0, 699.0, 120.0, 131.0 ],
+					"patching_rect" : [ 1439.0, 720.0, 120.0, 131.0 ],
 					"varname" : "te.randomlist",
 					"viewvisibility" : 1
 				}
@@ -223,7 +267,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1082.0, 699.0, 118.253970086574554, 293.901098899543285 ],
+					"patching_rect" : [ 1313.0, 720.0, 118.253970086574554, 293.901098899543285 ],
 					"viewvisibility" : 1
 				}
 
@@ -244,7 +288,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 893.0, 699.0, 181.951223850250244, 111.926831722259521 ],
+					"patching_rect" : [ 1123.0, 720.0, 181.951223850250244, 111.926831722259521 ],
 					"varname" : "te.plugin",
 					"viewvisibility" : 1
 				}
@@ -266,7 +310,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 604.0, 699.0, 279.881663978099823, 199.124265253543854 ],
+					"patching_rect" : [ 835.0, 720.0, 279.881663978099823, 199.124265253543854 ],
 					"varname" : "te.player",
 					"viewvisibility" : 1
 				}
@@ -288,7 +332,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 452.0, 699.0, 142.465749263763428, 199.324195325374603 ],
+					"patching_rect" : [ 683.0, 720.0, 142.465749263763428, 199.324195325374603 ],
 					"varname" : "te.plaits",
 					"viewvisibility" : 1
 				}
@@ -310,7 +354,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 298.0, 699.0, 145.0, 73.0 ],
+					"patching_rect" : [ 529.0, 720.0, 145.0, 73.0 ],
 					"varname" : "te.pitchscaler",
 					"viewvisibility" : 1
 				}
@@ -332,7 +376,8 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 9.0, 699.0, 280.357140183448792, 165.738093733787537 ],
+					"patching_rect" : [ 239.0, 720.0, 280.357140183448792, 165.738093733787537 ],
+					"varname" : "te.phasevocoder",
 					"viewvisibility" : 1
 				}
 
@@ -353,7 +398,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 1552.0, 372.046729147434235, 223.0, 255.0 ],
+					"patching_rect" : [ 9.0, 720.0, 223.0, 255.0 ],
 					"varname" : "te.multitapdelay",
 					"viewvisibility" : 1
 				}
@@ -374,7 +419,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 1334.0, 372.046729147434235, 207.070739448070526, 117.994974911212921 ],
+					"patching_rect" : [ 1438.0, 369.0, 207.070739448070526, 117.994974911212921 ],
 					"viewvisibility" : 1
 				}
 
@@ -395,7 +440,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 833.0, 372.046729147434235, 492.268013656139374, 193.876277685165405 ],
+					"patching_rect" : [ 937.0, 369.0, 492.268013656139374, 193.876277685165405 ],
 					"varname" : "te.midiseq",
 					"viewvisibility" : 1
 				}
@@ -417,28 +462,7 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 721.0, 371.0, 103.512390956282616, 133.057843863964081 ],
-					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgmode" : 0,
-					"border" : 0,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-10",
-					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "te.matrix.maxpat",
-					"numinlets" : 18,
-					"numoutlets" : 16,
-					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal" ],
-					"patching_rect" : [ 428.0, 371.0, 286.153873443603516, 301.773755669593811 ],
+					"patching_rect" : [ 825.0, 368.0, 103.512390956282616, 133.057843863964081 ],
 					"viewvisibility" : 1
 				}
 
@@ -504,6 +528,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "int", "int", "float", "", "int" ],
 					"patching_rect" : [ 1401.0, 14.0, 340.857793092727661, 125.105262041091919 ],
+					"varname" : "te.globaltransport",
 					"viewvisibility" : 1
 				}
 
@@ -642,7 +667,7 @@
 			}
  ],
 		"lines" : [  ],
-		"originid" : "pat-64",
+		"originid" : "pat-11",
 		"parameters" : 		{
 			"obj-11::obj-2" : [ "Pitch[1]", "Pitch", 0 ],
 			"obj-12::obj-100" : [ "View", "View", 0 ],
@@ -791,14 +816,14 @@
 			"obj-3::obj-62" : [ "umenu", "Model", 0 ],
 			"obj-3::obj-74" : [ "Pitch", "Pitch", 0 ],
 			"obj-4::obj-80" : [ "live.numbox", "live.numbox", 0 ],
-			"obj-5::obj-162" : [ "live.menu", "live.menu", 0 ],
+			"obj-5::obj-162" : [ "live.menu", "Rate", 0 ],
 			"obj-5::obj-198" : [ "MapX", "MapX", 0 ],
 			"obj-5::obj-199" : [ "MapY", "MapY", 0 ],
 			"obj-5::obj-200" : [ "Chaos/Swing", "Chaos/Swing", 0 ],
 			"obj-5::obj-202" : [ "Density-1", "Density-1", 0 ],
 			"obj-5::obj-203" : [ "Density-2", "Density-2", 0 ],
 			"obj-5::obj-204" : [ "Density-3", "Density-3", 0 ],
-			"obj-5::obj-208" : [ "live.numbox[1]", "live.numbox", 0 ],
+			"obj-5::obj-208" : [ "live.numbox[1]", "Bpm", 0 ],
 			"obj-6::obj-33" : [ "Normalize", "Normalize", 0 ],
 			"obj-6::obj-34" : [ "Tanh", "Tanh", 0 ],
 			"obj-6::obj-36" : [ "Zero", "Zero", 0 ],
@@ -1321,6 +1346,10 @@
 ,
 				"obj-4::obj-80" : 				{
 					"parameter_longname" : "live.numbox"
+				}
+,
+				"obj-5::obj-162" : 				{
+					"parameter_longname" : "live.menu"
 				}
 ,
 				"obj-5::obj-208" : 				{
@@ -1860,7 +1889,14 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "te.matrix.maxpat",
+				"name" : "te.matrixdata.maxpat",
+				"bootpath" : "~/Documents/Max 9/Packages/Tesserae/patchers",
+				"patcherrelativepath" : "./patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "te.matrixsignal.maxpat",
 				"bootpath" : "~/Documents/Max 9/Packages/Tesserae/patchers",
 				"patcherrelativepath" : "./patchers",
 				"type" : "JSON",

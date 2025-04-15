@@ -389,34 +389,13 @@
 			}
 , 			{
 				"box" : 				{
-					"bgmode" : 0,
-					"border" : 0,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-1",
-					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "te.matrix.maxpat",
-					"numinlets" : 18,
-					"numoutlets" : 16,
-					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal" ],
-					"patching_rect" : [ 227.0, 229.0, 286.153873443603516, 301.773755669593811 ],
-					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-8",
 					"linecount" : 5,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 625.0, 7.0, 206.0, 74.0 ],
-					"text" : "te.matrix\n\nTesserae by Giorgio Bosso © 2025\n\nhttps://linktr.ee/giorgiobosso"
+					"text" : "te.matrixsignal\n\nTesserae by Giorgio Bosso © 2025\n\nhttps://linktr.ee/giorgiobosso"
 				}
 
 			}
@@ -429,7 +408,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1.0, 48.0, 480.0, 47.0 ],
-					"text" : "Matrix is a 16x16 routing matrix that allows flexible signal routing and modulation mapping. It enables connections between multiple input and output sources, providing dynamic control over signal flow"
+					"text" : "Matrix-Signal is a 16x16 routing matrix that allows flexible signal routing and modulation mapping. It enables connections between multiple input and output sources, providing dynamic control over signal flow"
 				}
 
 			}
@@ -441,7 +420,29 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1.0, 1.0, 297.0, 51.0 ],
-					"text" : "te.matrix"
+					"text" : "te.matrixsignal"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-1",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "te.matrixsignal.maxpat",
+					"numinlets" : 18,
+					"numoutlets" : 16,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal" ],
+					"patching_rect" : [ 227.0, 230.0, 286.153873443603516, 301.773755669593811 ],
+					"varname" : "te.matrixsignal",
+					"viewvisibility" : 1
 				}
 
 			}
@@ -531,7 +532,7 @@
 
 			}
  ],
-		"originid" : "pat-9984",
+		"originid" : "pat-118",
 		"parameters" : 		{
 			"obj-15" : [ "mc.live.gain~", "mc.live.gain~", 0 ],
 			"obj-16" : [ "mc.live.gain~[1]", "mc.live.gain~", 0 ],
@@ -560,7 +561,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "te.matrix.maxpat",
+				"name" : "te.matrixsignal.maxpat",
 				"bootpath" : "~/Documents/Max 9/Packages/Tesserae/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
