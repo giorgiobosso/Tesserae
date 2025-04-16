@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 4,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -19,7 +19,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 50.0, 351.0, 150.0, 33.0 ],
+					"patching_rect" : [ 50.0, 351.0, 153.0, 33.0 ],
 					"text" : "Sets the minimum value of the random range"
 				}
 
@@ -212,18 +212,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-9",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 286.0, 201.0, 83.0, 22.0 ],
-					"text" : "loadmess 100"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-7",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -276,7 +264,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1.0, 48.0, 398.0, 47.0 ],
+					"patching_rect" : [ 1.0, 48.0, 399.0, 47.0 ],
 					"text" : "Random List is a module that generates random values within a defined range. It allows specifying the number of items to generate and triggering new random sequences"
 				}
 
@@ -336,15 +324,8 @@
 				}
 
 			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-1", 2 ],
-					"source" : [ "obj-9", 0 ]
-				}
-
-			}
  ],
-		"originid" : "pat-9344",
+		"originid" : "pat-11",
 		"parameters" : 		{
 			"obj-1::obj-8" : [ "Items", "Items", 0 ],
 			"parameterbanks" : 			{

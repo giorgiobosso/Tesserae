@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 4,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -14,6 +14,18 @@
 		"openinpresentation" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-6",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 272.0, 266.0, 83.0, 22.0 ],
+					"text" : "loadmess 100"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"bgoncolor" : [ 0.922234290352602, 0.71007200526417, 0.329758341965716, 1.0 ],
 					"fontname" : "Ableton Sans Medium",
@@ -62,7 +74,6 @@
 							"parameter_longname" : "Items",
 							"parameter_mmin" : 1.0,
 							"parameter_modmode" : 3,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "Items",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
@@ -152,7 +163,7 @@
 					"patching_rect" : [ 226.100000000000023, 447.0, 56.0, 22.0 ],
 					"restore" : 					{
 						"Items" : [ 1.0 ],
-						"Max-Rand" : [ 0.0 ],
+						"Max-Rand" : [ 100.0 ],
 						"Min-Rand" : [ 0.0 ]
 					}
 ,
@@ -310,7 +321,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 118.5, 516.0, 395.0, 22.0 ],
-					"text" : "0."
+					"text" : "50.505051"
 				}
 
 			}
@@ -358,7 +369,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 269.0, 234.0, 70.0, 22.0 ],
+					"patching_rect" : [ 272.0, 230.0, 70.0, 22.0 ],
 					"text" : "loadmess 0"
 				}
 
@@ -486,15 +497,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-11", 0 ],
-					"order" : 1,
-					"source" : [ "obj-24", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-12", 0 ],
-					"order" : 0,
 					"source" : [ "obj-24", 0 ]
 				}
 
@@ -571,13 +573,20 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-12", 0 ],
+					"source" : [ "obj-6", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-3", 1 ],
 					"source" : [ "obj-8", 0 ]
 				}
 
 			}
  ],
-		"originid" : "pat-794",
+		"originid" : "pat-13",
 		"parameters" : 		{
 			"obj-8" : [ "Items", "Items", 0 ],
 			"parameterbanks" : 			{
