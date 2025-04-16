@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 4,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -13,6 +13,28 @@
 		"rect" : [ 34.0, 87.0, 1372.0, 779.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
+				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-18",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "te.player.maxpat",
+					"numinlets" : 9,
+					"numoutlets" : 1,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "multichannelsignal" ],
+					"patching_rect" : [ 834.0, 720.0, 280.0, 172.0 ],
+					"varname" : "te.player",
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"bgmode" : 0,
 					"border" : 0,
@@ -290,28 +312,6 @@
 					"outlettype" : [ "multichannelsignal" ],
 					"patching_rect" : [ 1123.0, 720.0, 181.951223850250244, 111.926831722259521 ],
 					"varname" : "te.plugin",
-					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgmode" : 0,
-					"border" : 0,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-18",
-					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "te.player.maxpat",
-					"numinlets" : 11,
-					"numoutlets" : 1,
-					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 835.0, 720.0, 279.881663978099823, 199.124265253543854 ],
-					"varname" : "te.player",
 					"viewvisibility" : 1
 				}
 
@@ -667,7 +667,7 @@
 			}
  ],
 		"lines" : [  ],
-		"originid" : "pat-11",
+		"originid" : "pat-10003",
 		"parameters" : 		{
 			"obj-11::obj-2" : [ "Pitch[1]", "Pitch", 0 ],
 			"obj-12::obj-100" : [ "View", "View", 0 ],
@@ -703,10 +703,8 @@
 			"obj-17::obj-62" : [ "Model", "Model", 0 ],
 			"obj-17::obj-74" : [ "Pitch[3]", "Pitch", 0 ],
 			"obj-18::obj-101" : [ "Pitch[4]", "Pitch", 0 ],
-			"obj-18::obj-96" : [ "Start", "Start", 0 ],
-			"obj-18::obj-97" : [ "Length[1]", "Length", 0 ],
+			"obj-18::obj-146" : [ "Selector[1]", "Selector", 0 ],
 			"obj-18::obj-99" : [ "Speed", "Speed", 0 ],
-			"obj-19::obj-1" : [ "Plugin", "Plugin", 0 ],
 			"obj-1::obj-25" : [ "Cutoff-1", "Cutoff-1", 0 ],
 			"obj-1::obj-27" : [ "Cutoff-2", "Cutoff-2", 0 ],
 			"obj-1::obj-29" : [ "Gain-1", "Gain-1", 0 ],
@@ -879,10 +877,6 @@
 ,
 				"obj-18::obj-101" : 				{
 					"parameter_longname" : "Pitch[4]"
-				}
-,
-				"obj-18::obj-97" : 				{
-					"parameter_longname" : "Length[1]"
 				}
 ,
 				"obj-20::obj-30" : 				{

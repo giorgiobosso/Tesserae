@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 4,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -22,29 +22,7 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 108.5, 423.0, 56.0, 22.0 ],
 					"restore" : 					{
-						"Plugin" : [ 							{
-								"filetype" : "C74Snapshot",
-								"version" : 2,
-								"minorversion" : 0,
-								"name" : "Pro-Q 3",
-								"origin" : "Pro-Q 3.auinfo",
-								"type" : "AudioUnit",
-								"subtype" : "MidiEffect",
-								"embed" : 1,
-								"snapshot" : 								{
-									"pluginname" : "Pro-Q 3.auinfo",
-									"plugindisplayname" : "Pro-Q 3",
-									"pluginsavedname" : "",
-									"pluginsaveduniqueid" : 1179726704,
-									"version" : 1,
-									"isbank" : 0,
-									"isbase64" : 1,
-									"blob" : "1684.hAGaoMGcv.i0AHv.DTfAGfPBJr.CWMWchQWdvUFWsEla0YVXiQWcxUlbeAAEFElXFkFazUlbPwVcmklaSQWXzUFUtEVakQEc4AWYWYWYxMWZu4lDFE0LvIgQgIlQOEQAfajQBMU.....lE............3OZO2GAA.............f+....9C...vO.........9C....P...f+..............f+n8beDD..............9C...3O....+.........3O.....A...9C..............9i1y8QP..............3O...f+....7C........f+.....D...3O..............3OZO2GAA.............f+....9C...vO.........9C....P...f+..............f+n8beDD..............9C...3O....+.........3O.....A...9C..............9i1y8QP..............3O...f+....7C........f+.....D...3O..............3OZO2GAA.............f+....9C...vO.........9C....P...f+..............f+n8beDD..............9C...3O....+.........3O.....A...9C..............9i1y8QP..............3O...f+....7C........f+.....D...3O..............3OZO2GAA.............f+....9C...vO.........9C....P...f+..............f+n8beDD..............9C...3O....+.........3O.....A...9C..............9i1y8QP..............3O...f+....7C........f+.....D...3O..............3OZO2GAA.............f+....9C...vO.........9C....P...f+..............f+n8beDD..............9C...3O....+.........3O.....A...9C..............9i1y8QP..............3O...f+....7C........f+.....D...3O..............3OZO2GAA.............f+....9C...vO.........9C....P...f+..............f+n8beDD..............9C...3O....+.........3O.....A...9C..............9i1y8QP..............3O...f+....7C........f+.....D...3O..............3OZO2GAA.............f+....9C...vO.........9C....P...f+..............f+n8beDD..............9C...3O....+.........3O.....A...9C..............9i1y8QP..............3O...f+....7C........f+.....D...3O..............3OZO2GAA.............f+....9C...vO.........9C....P...f+..............f+n8beDD..............9C...3O....+.........3O.....A...9C..............9i1y8QP..............3O...f+....7C........f+.....D...3O..............3O...f+....................................9C...3O...f+B...9C....P.....A...AD........f+....9C....P..........................................................................................................................................fQQMCbC....7.....QkYVX0wFcfLUYzQWZtc1+++++A....T.....Tx8VKQA....vP0MkUA.........vWP7.QkYVX0wFcfLUYzQWZtclDgUWalAA..f..U.PG.nB.AAfQ.rD.SA.V.zkAAYvTFfE.......f.A.........PC..................fAZA"
-								}
-
-							}
- ],
-						"Plugin-List" : [ 60 ]
+						"Plugin-List" : [ 0 ]
 					}
 ,
 					"text" : "autopattr",
@@ -251,7 +229,7 @@
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 9.5,
 					"id" : "obj-9",
-					"items" : [ "Analog Lab V", ",", "AUAudioFilePlayer", ",", "AUBandpass", ",", "AUDelay", ",", "AUDistortion", ",", "AUDynamicsProcessor", ",", "AUFilter", ",", "AUGraphicEQ", ",", "AUHighShelfFilter", ",", "AUHipass", ",", "AULowpass", ",", "AULowShelfFilter", ",", "AUMatrixReverb", ",", "AUMIDISynth", ",", "AUMultibandCompressor", ",", "AUNBandEQ", ",", "AUNetReceive", ",", "AUNetSend", ",", "AUNewPitch", ",", "AUParametricEQ", ",", "AUPeakLimiter", ",", "AUPitch", ",", "AUReverb2", ",", "AURogerBeep", ",", "AURoundTripAAC", ",", "AUSampleDelay", ",", "AUSampler", ",", "AUScheduledSoundPlayer", ",", "AUSoundFieldPanner", ",", "AUSpeechSynthesis", ",", "AUSphericalHeadPanner", ",", "AUVectorPanner", ",", "Buchla Easel V", ",", "DLSMusicDevice", ",", "HRTFPanner", ",", "Micro", ",", "Nectar 3", ",", "One", ",", "Ozone 10 Dynamic EQ", ",", "Ozone 10 Dynamics", ",", "Ozone 10 Equalizer", ",", "Ozone 10 Exciter", ",", "Ozone 10 Imager", ",", "Ozone 10 Impact", ",", "Ozone 10 Low End Focus", ",", "Ozone 10 Master Rebalance", ",", "Ozone 10 Match EQ", ",", "Ozone 10 Maximizer", ",", "Ozone 10 Spectral Shaper", ",", "Ozone 10 Stabilizer", ",", "Ozone 10 Vintage Compressor", ",", "Ozone 10 Vintage EQ", ",", "Ozone 10 Vintage Limiter", ",", "Ozone 10 Vintage Tape", ",", "Ozone 10", ",", "Pro-C 2", ",", "Pro-DS", ",", "Pro-G", ",", "Pro-L 2", ",", "Pro-MB", ",", "Pro-Q 3", ",", "Pro-R", ",", "RX 10 Breath Control", ",", "RX 10 Connect", ",", "RX 10 De-click", ",", "RX 10 De-clip", ",", "RX 10 De-crackle", ",", "RX 10 De-ess", ",", "RX 10 De-hum", ",", "RX 10 De-plosive", ",", "RX 10 De-reverb", ",", "RX 10 Guitar De-noise", ",", "RX 10 Monitor", ",", "RX 10 Mouth De-click", ",", "RX 10 Music Rebalance", ",", "RX 10 Repair Assistant", ",", "RX 10 Spectral De-noise", ",", "RX 10 Spectral Editor", ",", "RX 10 Voice De-noise", ",", "Saturn 2", ",", "Simplon", ",", "Synthi V", ",", "TDR Prism", ",", "Timeless 3", ",", "Twin 2", ",", "Volcano 3", ",", "Youlean Loudness Meter 2" ],
+					"items" : [ "AUAudioFilePlayer", ",", "AUBandpass", ",", "AUDelay", ",", "AUDistortion", ",", "AUDynamicsProcessor", ",", "AUFilter", ",", "AUGraphicEQ", ",", "AUHighShelfFilter", ",", "AUHipass", ",", "AULowpass", ",", "AULowShelfFilter", ",", "AUMatrixReverb", ",", "AUMIDISynth", ",", "AUMultibandCompressor", ",", "AUNBandEQ", ",", "AUNetReceive", ",", "AUNetSend", ",", "AUNewPitch", ",", "AUParametricEQ", ",", "AUPeakLimiter", ",", "AUPitch", ",", "AUReverb2", ",", "AURogerBeep", ",", "AURoundTripAAC", ",", "AUSampleDelay", ",", "AUSampler", ",", "AUScheduledSoundPlayer", ",", "AUSoundFieldPanner", ",", "AUSpeechSynthesis", ",", "AUSphericalHeadPanner", ",", "AUVectorPanner", ",", "DLSMusicDevice", ",", "HRTFPanner", ",", "AUAudioFilePlayer", ",", "AUBandpass", ",", "AUDelay", ",", "AUDistortion", ",", "AUDynamicsProcessor", ",", "AUFilter", ",", "AUGraphicEQ", ",", "AUHighShelfFilter", ",", "AUHipass", ",", "AULowpass", ",", "AULowShelfFilter", ",", "AUMatrixReverb", ",", "AUMIDISynth", ",", "AUMultibandCompressor", ",", "AUNBandEQ", ",", "AUNetReceive", ",", "AUNetSend", ",", "AUNewPitch", ",", "AUParametricEQ", ",", "AUPeakLimiter", ",", "AUPitch", ",", "AUReverb2", ",", "AURogerBeep", ",", "AURoundTripAAC", ",", "AUSampleDelay", ",", "AUSampler", ",", "AUScheduledSoundPlayer", ",", "AUSoundFieldPanner", ",", "AUSpeechSynthesis", ",", "AUSphericalHeadPanner", ",", "AUVectorPanner", ",", "DLSMusicDevice", ",", "HRTFPanner", ",", "AUAudioFilePlayer", ",", "AUBandpass", ",", "AUDelay", ",", "AUDistortion", ",", "AUDynamicsProcessor", ",", "AUFilter", ",", "AUGraphicEQ", ",", "AUHighShelfFilter", ",", "AUHipass", ",", "AULowpass", ",", "AULowShelfFilter", ",", "AUMatrixReverb", ",", "AUMIDISynth", ",", "AUMultibandCompressor", ",", "AUNBandEQ", ",", "AUNetReceive", ",", "AUNetSend", ",", "AUNewPitch", ",", "AUParametricEQ", ",", "AUPeakLimiter", ",", "AUPitch", ",", "AUReverb2", ",", "AURogerBeep", ",", "AURoundTripAAC", ",", "AUSampleDelay", ",", "AUSampler", ",", "AUScheduledSoundPlayer", ",", "AUSoundFieldPanner", ",", "AUSpeechSynthesis", ",", "AUSphericalHeadPanner", ",", "AUVectorPanner", ",", "DLSMusicDevice", ",", "HRTFPanner" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -586,7 +564,6 @@
 							"parameter_invisible" : 1,
 							"parameter_longname" : "Plugin",
 							"parameter_modmode" : 0,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "Plugin",
 							"parameter_type" : 3
 						}
@@ -609,14 +586,7 @@
 						"subtype" : "Undefined",
 						"embed" : 1,
 						"snapshot" : 						{
-							"pluginname" : "Pro-Q 3.auinfo",
-							"plugindisplayname" : "Pro-Q 3",
-							"pluginsavedname" : "",
-							"pluginsaveduniqueid" : 1179726704,
-							"version" : 1,
-							"isbank" : 0,
-							"isbase64" : 1,
-							"blob" : "1684.hAGaoMGcv.i0AHv.DTfAGfPBJr.CWMWchQWdvUFWsEla0YVXiQWcxUlbeAAEFElXFkFazUlbPwVcmklaSQWXzUFUtEVakQEc4AWYWYWYxMWZu4lDFE0LvIgQgIlQOEQAfajQBMU.....lE............3OZO2GAA.............f+....9C...vO.........9C....P...f+..............f+n8beDD..............9C...3O....+.........3O.....A...9C..............9i1y8QP..............3O...f+....7C........f+.....D...3O..............3OZO2GAA.............f+....9C...vO.........9C....P...f+..............f+n8beDD..............9C...3O....+.........3O.....A...9C..............9i1y8QP..............3O...f+....7C........f+.....D...3O..............3OZO2GAA.............f+....9C...vO.........9C....P...f+..............f+n8beDD..............9C...3O....+.........3O.....A...9C..............9i1y8QP..............3O...f+....7C........f+.....D...3O..............3OZO2GAA.............f+....9C...vO.........9C....P...f+..............f+n8beDD..............9C...3O....+.........3O.....A...9C..............9i1y8QP..............3O...f+....7C........f+.....D...3O..............3OZO2GAA.............f+....9C...vO.........9C....P...f+..............f+n8beDD..............9C...3O....+.........3O.....A...9C..............9i1y8QP..............3O...f+....7C........f+.....D...3O..............3OZO2GAA.............f+....9C...vO.........9C....P...f+..............f+n8beDD..............9C...3O....+.........3O.....A...9C..............9i1y8QP..............3O...f+....7C........f+.....D...3O..............3OZO2GAA.............f+....9C...vO.........9C....P...f+..............f+n8beDD..............9C...3O....+.........3O.....A...9C..............9i1y8QP..............3O...f+....7C........f+.....D...3O..............3OZO2GAA.............f+....9C...vO.........9C....P...f+..............f+n8beDD..............9C...3O....+.........3O.....A...9C..............9i1y8QP..............3O...f+....7C........f+.....D...3O..............3O...f+....................................9C...3O...f+B...9C....P.....A...AD........f+....9C....P..........................................................................................................................................fQQMCbC....7.....QkYVX0wFcfLUYzQWZtc1+++++A....T.....Tx8VKQA....vP0MkUA.........vWP7.QkYVX0wFcfLUYzQWZtclDgUWalAA..f..U.PG.nB.AAfQ.rD.SA.V.zkAAYvTFfE.......f.A.........PC..................fAZA"
+
 						}
 ,
 						"snapshotlist" : 						{
@@ -626,19 +596,12 @@
 									"version" : 2,
 									"minorversion" : 0,
 									"name" : "Pro-Q 3",
-									"origin" : "Pro-Q 3.auinfo",
+									"origin" : "",
 									"type" : "AudioUnit",
-									"subtype" : "MidiEffect",
+									"subtype" : "AudioEffect",
 									"embed" : 1,
 									"snapshot" : 									{
-										"pluginname" : "Pro-Q 3.auinfo",
-										"plugindisplayname" : "Pro-Q 3",
-										"pluginsavedname" : "",
-										"pluginsaveduniqueid" : 1179726704,
-										"version" : 1,
-										"isbank" : 0,
-										"isbase64" : 1,
-										"blob" : "1684.hAGaoMGcv.i0AHv.DTfAGfPBJr.CWMWchQWdvUFWsEla0YVXiQWcxUlbeAAEFElXFkFazUlbPwVcmklaSQWXzUFUtEVakQEc4AWYWYWYxMWZu4lDFE0LvIgQgIlQOEQAfajQBMU.....lE............3OZO2GAA.............f+....9C...vO.........9C....P...f+..............f+n8beDD..............9C...3O....+.........3O.....A...9C..............9i1y8QP..............3O...f+....7C........f+.....D...3O..............3OZO2GAA.............f+....9C...vO.........9C....P...f+..............f+n8beDD..............9C...3O....+.........3O.....A...9C..............9i1y8QP..............3O...f+....7C........f+.....D...3O..............3OZO2GAA.............f+....9C...vO.........9C....P...f+..............f+n8beDD..............9C...3O....+.........3O.....A...9C..............9i1y8QP..............3O...f+....7C........f+.....D...3O..............3OZO2GAA.............f+....9C...vO.........9C....P...f+..............f+n8beDD..............9C...3O....+.........3O.....A...9C..............9i1y8QP..............3O...f+....7C........f+.....D...3O..............3OZO2GAA.............f+....9C...vO.........9C....P...f+..............f+n8beDD..............9C...3O....+.........3O.....A...9C..............9i1y8QP..............3O...f+....7C........f+.....D...3O..............3OZO2GAA.............f+....9C...vO.........9C....P...f+..............f+n8beDD..............9C...3O....+.........3O.....A...9C..............9i1y8QP..............3O...f+....7C........f+.....D...3O..............3OZO2GAA.............f+....9C...vO.........9C....P...f+..............f+n8beDD..............9C...3O....+.........3O.....A...9C..............9i1y8QP..............3O...f+....7C........f+.....D...3O..............3OZO2GAA.............f+....9C...vO.........9C....P...f+..............f+n8beDD..............9C...3O....+.........3O.....A...9C..............9i1y8QP..............3O...f+....7C........f+.....D...3O..............3O...f+....................................9C...3O...f+B...9C....P.....A...AD........f+....9C....P..........................................................................................................................................fQQMCbC....7.....QkYVX0wFcfLUYzQWZtc1+++++A....T.....Tx8VKQA....vP0MkUA.........vWP7.QkYVX0wFcfLUYzQWZtclDgUWalAA..f..U.PG.nB.AAfQ.rD.SA.V.zkAAYvTFfE.......f.A.........PC..................fAZA"
+
 									}
 ,
 									"fileref" : 									{
@@ -646,7 +609,7 @@
 										"filename" : "Pro-Q 3.maxsnap",
 										"filepath" : "~/Documents/Max 9/Snapshots",
 										"filepos" : -1,
-										"snapshotfileid" : "bd24522eaa8c068113558b0255caeedd"
+										"snapshotfileid" : "cef95b28d2ae79e58400f86e8f7fed9f"
 									}
 
 								}
@@ -894,7 +857,7 @@
 
 			}
  ],
-		"originid" : "pat-330",
+		"originid" : "pat-6683",
 		"parameters" : 		{
 			"obj-1" : [ "Plugin", "Plugin", 0 ],
 			"parameterbanks" : 			{

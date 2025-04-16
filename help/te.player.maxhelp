@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 4,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 59.0, 87.0, 824.0, 764.0 ],
+		"rect" : [ 59.0, 87.0, 831.0, 764.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
 				"box" : 				{
@@ -19,7 +19,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 72.0, 499.0, 150.0, 33.0 ],
+					"patching_rect" : [ 35.0, 512.0, 150.0, 33.0 ],
 					"text" : "Resets playback to the beginning"
 				}
 
@@ -31,30 +31,7 @@
 					"maxclass" : "live.line",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 200.0, 436.0, 159.0, 74.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-41",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 54.0, 452.0, 150.0, 33.0 ],
-					"text" : "Pauses playback without resetting position"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-37",
-					"justification" : 4,
-					"maxclass" : "live.line",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 194.0, 436.0, 115.0, 27.0 ]
+					"patching_rect" : [ 156.0, 500.0, 163.0, 36.0 ]
 				}
 
 			}
@@ -64,65 +41,42 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 68.0, 422.0, 150.0, 20.0 ],
-					"text" : "Starts audio playback"
+					"patching_rect" : [ 81.0, 432.0, 150.0, 20.0 ],
+					"text" : "Start/Stop audio playback"
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"id" : "obj-34",
-					"justification" : 4,
+					"justification" : 3,
 					"maxclass" : "live.line",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 190.0, 422.0, 68.0, 14.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-33",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 54.0, 574.0, 150.0, 33.0 ],
-					"text" : "Sets the starting position within the audio file"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-31",
-					"justification" : 4,
-					"maxclass" : "live.line",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 190.0, 560.124265253543854, 72.0, 22.0 ]
+					"patching_rect" : [ 211.0, 454.0, 53.0, 31.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"id" : "obj-27",
-					"linecount" : 3,
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 290.0, 604.0, 69.0, 47.0 ],
-					"text" : "Defines the playback duration"
+					"patching_rect" : [ 617.0, 396.0, 138.0, 33.0 ],
+					"text" : "Sets the start/end of sample playback"
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"id" : "obj-25",
-					"justification" : 3,
+					"justification" : 4,
 					"maxclass" : "live.line",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 322.0, 567.0, 5.0, 40.0 ]
+					"patching_rect" : [ 509.0, 406.0, 109.0, 23.0 ]
 				}
 
 			}
@@ -133,7 +87,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 381.0, 604.0, 72.0, 47.0 ],
+					"patching_rect" : [ 546.0, 575.0, 72.0, 47.0 ],
 					"text" : "Adjusts the playback speed"
 				}
 
@@ -145,7 +99,7 @@
 					"maxclass" : "live.line",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 384.0, 572.0, 25.0, 35.0 ]
+					"patching_rect" : [ 452.0, 524.0, 93.0, 56.0 ]
 				}
 
 			}
@@ -156,7 +110,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 521.0, 590.0, 150.0, 47.0 ],
+					"patching_rect" : [ 373.0, 602.0, 151.0, 47.0 ],
 					"text" : "Enables time-stretching to maintain pitch when changing speed"
 				}
 
@@ -168,7 +122,7 @@
 					"maxclass" : "live.line",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 458.0, 567.0, 67.0, 35.0 ]
+					"patching_rect" : [ 381.0, 529.0, 14.0, 71.0 ]
 				}
 
 			}
@@ -179,7 +133,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 582.0, 524.0, 150.0, 33.0 ],
+					"patching_rect" : [ 576.0, 475.0, 150.0, 33.0 ],
 					"text" : "Modifies the pitch independently from speed"
 				}
 
@@ -191,17 +145,18 @@
 					"maxclass" : "live.line",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 515.0, 535.0, 72.0, 22.0 ]
+					"patching_rect" : [ 509.0, 486.0, 72.0, 22.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"id" : "obj-15",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 575.0, 452.0, 150.0, 20.0 ],
+					"patching_rect" : [ 276.0, 602.0, 91.0, 33.0 ],
 					"text" : "Plays the audio in reverse"
 				}
 
@@ -213,7 +168,7 @@
 					"maxclass" : "live.line",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 464.0, 437.0, 109.0, 26.0 ]
+					"patching_rect" : [ 328.0, 529.0, 14.0, 71.0 ]
 				}
 
 			}
@@ -223,7 +178,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 577.0, 377.0, 150.0, 20.0 ],
+					"patching_rect" : [ 69.0, 560.0, 150.0, 20.0 ],
 					"text" : "Enables looped playback"
 				}
 
@@ -241,7 +196,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 106.0, 385.5, 20.0, 20.0 ],
+					"patching_rect" : [ 109.0, 376.0, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"saved_attribute_attributes" : 					{
 						"bgcolor" : 						{
@@ -265,8 +220,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 128.0, 383.0, 119.0, 25.0 ],
-					"presentation_linecount" : 2,
+					"patching_rect" : [ 131.0, 374.0, 119.0, 25.0 ],
 					"text" : "play the sample"
 				}
 
@@ -278,7 +232,7 @@
 					"maxclass" : "live.line",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 515.0, 385.5, 67.0, 36.5 ]
+					"patching_rect" : [ 198.0, 523.0, 67.0, 36.5 ]
 				}
 
 			}
@@ -288,29 +242,7 @@
 					"maxclass" : "mc.ezdac~",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 250.0, 685.0, 45.0, 45.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgmode" : 0,
-					"border" : 0,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-9",
-					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "te.player.maxpat",
-					"numinlets" : 11,
-					"numoutlets" : 1,
-					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 250.0, 383.0, 279.881663978099823, 199.124265253543854 ],
-					"varname" : "te.player",
-					"viewvisibility" : 1
+					"patching_rect" : [ 253.0, 673.0, 45.0, 45.0 ]
 				}
 
 			}
@@ -321,7 +253,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 353.0, 162.0, 133.0, 22.0 ],
+					"patching_rect" : [ 356.0, 150.0, 133.0, 22.0 ],
 					"text" : "loadmess drumLoop.aif"
 				}
 
@@ -342,7 +274,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 239.0, 191.0, 303.0, 179.0 ],
+					"patching_rect" : [ 242.0, 179.0, 303.0, 179.0 ],
 					"varname" : "te.buffer",
 					"viewvisibility" : 1
 				}
@@ -361,7 +293,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 407.0, 697.0, 20.0, 20.0 ],
+					"patching_rect" : [ 410.0, 685.0, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"saved_attribute_attributes" : 					{
 						"bgcolor" : 						{
@@ -384,7 +316,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 297.0, 695.0, 108.0, 25.0 ],
+					"patching_rect" : [ 300.0, 683.0, 108.0, 25.0 ],
 					"text" : "turn on audio"
 				}
 
@@ -426,10 +358,39 @@
 				}
 
 			}
+, 			{
+				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-14",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "te.player.maxpat",
+					"numinlets" : 9,
+					"numoutlets" : 1,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "multichannelsignal" ],
+					"patching_rect" : [ 254.0, 374.0, 280.0, 172.0 ],
+					"varname" : "te.player",
+					"viewvisibility" : 1
+				}
+
+			}
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"destination" : [ "obj-9", 10 ],
+					"destination" : [ "obj-1", 0 ],
+					"source" : [ "obj-14", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-14", 8 ],
 					"source" : [ "obj-3", 0 ]
 				}
 
@@ -441,26 +402,25 @@
 				}
 
 			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-1", 0 ],
-					"source" : [ "obj-9", 0 ]
-				}
-
-			}
  ],
-		"originid" : "pat-112",
+		"originid" : "pat-45",
 		"parameters" : 		{
+			"obj-14::obj-101" : [ "Pitch", "Pitch", 0 ],
+			"obj-14::obj-146" : [ "Selector", "Selector", 0 ],
+			"obj-14::obj-99" : [ "Speed", "Speed", 0 ],
 			"obj-3::obj-80" : [ "live.numbox", "live.numbox", 0 ],
-			"obj-9::obj-101" : [ "Pitch", "Pitch", 0 ],
-			"obj-9::obj-96" : [ "Start", "Start", 0 ],
-			"obj-9::obj-97" : [ "Length", "Length", 0 ],
-			"obj-9::obj-99" : [ "Speed", "Speed", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
 					"name" : "",
 					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"parameter_overrides" : 			{
+				"obj-3::obj-80" : 				{
+					"parameter_longname" : "live.numbox"
 				}
 
 			}
