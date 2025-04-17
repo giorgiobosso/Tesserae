@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 4,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -150,7 +150,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 132.524574518203735, 450.0, 206.0, 74.0 ],
-					"presentation_linecount" : 5,
 					"text" : "te.matrixdata\n\nTesserae by Giorgio Bosso © 2025\n\nhttps://linktr.ee/giorgiobosso"
 				}
 
@@ -348,7 +347,6 @@
 					"maxclass" : "matrixctrl",
 					"numinlets" : 1,
 					"numoutlets" : 2,
-					"one/row" : 1,
 					"outlettype" : [ "list", "list" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 34.0, 155.0, 66.0, 66.0 ],
@@ -531,7 +529,7 @@
 
 			}
  ],
-		"originid" : "pat-126",
+		"originid" : "pat-3300",
 		"dependency_cache" : [  ],
 		"autosave" : 0,
 		"styles" : [ 			{
