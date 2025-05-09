@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 4,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -209,7 +209,6 @@
 							"parameter_mmax" : 60000.0,
 							"parameter_mmin" : 4000.0,
 							"parameter_modmode" : 3,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 2
@@ -766,7 +765,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 17.0, 53.0, 271.333340227603912, 59.333335101604462 ],
 					"selectioncolor" : [ 0.929411764705882, 0.929411764705882, 0.352941176470588, 0.0 ],
-					"waveformcolor" : [ 0.356862745098039, 0.643137254901961, 0.949019607843137, 1.0 ]
+					"waveformcolor" : [ 0.92156862745098, 0.917647058823529, 0.933333333333333, 1.0 ]
 				}
 
 			}
@@ -785,7 +784,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 17.0, 53.0, 271.333340227603912, 59.333335101604462 ],
 					"selectioncolor" : [ 0.929411764705882, 0.929411764705882, 0.352941176470588, 0.0 ],
-					"waveformcolor" : [ 0.356862745098039, 0.643137254901961, 0.949019607843137, 1.0 ]
+					"waveformcolor" : [ 0.92156862745098, 0.917647058823529, 0.933333333333333, 1.0 ]
 				}
 
 			}
@@ -1556,7 +1555,7 @@
 
 			}
  ],
-		"originid" : "pat-1599",
+		"originid" : "pat-167",
 		"parameters" : 		{
 			"obj-80" : [ "live.numbox[1]", "live.numbox", 0 ],
 			"parameterbanks" : 			{

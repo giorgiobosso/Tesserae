@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 4,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -46,7 +46,6 @@
 							"parameter_longname" : "Gain",
 							"parameter_mmax" : 1.0,
 							"parameter_modmode" : 3,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "Gain",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 1
@@ -118,7 +117,6 @@
 							"parameter_longname" : "Time",
 							"parameter_mmax" : 7000.0,
 							"parameter_modmode" : 3,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "Time",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 2
@@ -210,7 +208,6 @@
 							"parameter_longname" : "Pan",
 							"parameter_mmax" : 100.0,
 							"parameter_modmode" : 3,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "Pan",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 1
@@ -241,7 +238,6 @@
 							"parameter_longname" : "Duration",
 							"parameter_mmax" : 7000.0,
 							"parameter_modmode" : 3,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "Duration",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 2
@@ -271,7 +267,6 @@
 							"parameter_linknames" : 1,
 							"parameter_longname" : "Transpose",
 							"parameter_modmode" : 3,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "Transpose",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 1
@@ -302,7 +297,6 @@
 							"parameter_longname" : "Postion",
 							"parameter_mmax" : 100.0,
 							"parameter_modmode" : 3,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "Postion",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 5
@@ -391,7 +385,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 4,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -493,7 +487,6 @@
 											"parameter_mmax" : 6.0,
 											"parameter_mmin" : -70.0,
 											"parameter_modmode" : 0,
-											"parameter_osc_name" : "<default>",
 											"parameter_shortname" : "mc.live.gain~",
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 4
@@ -550,7 +543,6 @@
 											"parameter_mmax" : 6.0,
 											"parameter_mmin" : -70.0,
 											"parameter_modmode" : 0,
-											"parameter_osc_name" : "<default>",
 											"parameter_shortname" : "mc.live.gain~",
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 4
@@ -582,13 +574,12 @@
 
 							}
  ],
-						"originid" : "pat-617",
+						"originid" : "pat-10",
 						"bgcolor" : [ 0.490196078431373, 0.498039215686275, 0.517647058823529, 1.0 ]
 					}
 ,
 					"patching_rect" : [ 288.831177000000025, 590.5, 89.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"globalpatchername" : "",
 						"locked_bgcolor" : [ 0.490196078431373, 0.498039215686275, 0.517647058823529, 1.0 ]
 					}
 ,
@@ -1147,7 +1138,7 @@
 					"setmode" : 1,
 					"ticks" : 4,
 					"vticks" : 0,
-					"waveformcolor" : [ 0.356862745098039, 0.643137254901961, 0.949019607843137, 1.0 ]
+					"waveformcolor" : [ 1.0, 0.345098039215686, 0.298039215686275, 1.0 ]
 				}
 
 			}
@@ -1365,7 +1356,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 4,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1714,7 +1705,7 @@
 
 							}
  ],
-						"originid" : "pat-683",
+						"originid" : "pat-76",
 						"bgcolor" : [ 0.901961, 0.901961, 0.901961, 1.0 ]
 					}
 ,
@@ -1722,7 +1713,6 @@
 					"saved_object_attributes" : 					{
 						"fontname" : "Lato",
 						"fontsize" : 10.0,
-						"globalpatchername" : "",
 						"locked_bgcolor" : [ 0.901961, 0.901961, 0.901961, 1.0 ]
 					}
 ,
@@ -1808,7 +1798,7 @@
 					"setmode" : 1,
 					"ticks" : 4,
 					"vticks" : 0,
-					"waveformcolor" : [ 0.356862745098039, 0.643137254901961, 0.949019607843137, 1.0 ]
+					"waveformcolor" : [ 1.0, 0.345098039215686, 0.298039215686275, 1.0 ]
 				}
 
 			}
@@ -2365,7 +2355,7 @@
 
 			}
  ],
-		"originid" : "pat-615",
+		"originid" : "pat-8",
 		"parameters" : 		{
 			"obj-13::obj-1" : [ "mc.live.gain~", "mc.live.gain~", 0 ],
 			"obj-13::obj-2" : [ "mc.live.gain~[1]", "mc.live.gain~", 0 ],

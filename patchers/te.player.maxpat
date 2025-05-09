@@ -433,7 +433,7 @@
 				"box" : 				{
 					"comment" : "selall",
 					"id" : "obj-149",
-					"index" : 4,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -1156,7 +1156,7 @@
 					"htricolor" : [ 0.87, 0.82, 0.24, 1.0 ],
 					"id" : "obj-47",
 					"maxclass" : "flonum",
-					"minimum" : 14739.14933311994173,
+					"minimum" : 50.0,
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
@@ -1315,8 +1315,8 @@
 						"Pitch" : [ 0.0 ],
 						"Play" : [ 0 ],
 						"Reverse" : [ 0 ],
-						"Selector" : [ 13.711021825122049, 37.157821043895993 ],
-						"Speed" : [ 1.468054147038919 ],
+						"Selector" : [ 0.0, 100.0 ],
+						"Speed" : [ 1.0 ],
 						"Stretch" : [ 0 ]
 					}
 ,
@@ -1360,7 +1360,7 @@
 				"box" : 				{
 					"comment" : "play",
 					"id" : "obj-9",
-					"index" : 7,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -1374,7 +1374,6 @@
 					"allowdrag" : 0,
 					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
 					"buffername" : "1001-sample",
-					"chanoffset" : 2,
 					"gridcolor" : [ 0.349019607843137, 0.349019607843137, 0.349019607843137, 0.0 ],
 					"id" : "obj-91",
 					"ignoreclick" : 1,
@@ -1389,7 +1388,7 @@
 					"ruler" : 0,
 					"selectioncolor" : [ 0.501960784313725, 0.501960784313725, 0.501960784313725, 0.5 ],
 					"vticks" : 0,
-					"waveformcolor" : [ 0.356862745098039, 0.643137254901961, 0.949019607843137, 1.0 ]
+					"waveformcolor" : [ 0.815686274509804, 0.858823529411765, 0.349019607843137, 1.0 ]
 				}
 
 			}
@@ -1411,7 +1410,7 @@
 					"ruler" : 0,
 					"selectioncolor" : [ 0.501960784313725, 0.501960784313725, 0.501960784313725, 0.5 ],
 					"vticks" : 0,
-					"waveformcolor" : [ 0.356862745098039, 0.643137254901961, 0.949019607843137, 1.0 ]
+					"waveformcolor" : [ 0.815686274509804, 0.858823529411765, 0.349019607843137, 1.0 ]
 				}
 
 			}
@@ -1695,7 +1694,7 @@
 				"box" : 				{
 					"comment" : "buffer-name",
 					"id" : "obj-71",
-					"index" : 9,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -1708,7 +1707,7 @@
 				"box" : 				{
 					"comment" : "reverse",
 					"id" : "obj-81",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -1733,7 +1732,7 @@
 				"box" : 				{
 					"comment" : "L-R",
 					"id" : "obj-59",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1745,7 +1744,7 @@
 				"box" : 				{
 					"comment" : "loop",
 					"id" : "obj-54",
-					"index" : 3,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -1770,7 +1769,7 @@
 				"box" : 				{
 					"comment" : "speed",
 					"id" : "obj-50",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -1783,7 +1782,7 @@
 				"box" : 				{
 					"comment" : "stretch",
 					"id" : "obj-48",
-					"index" : 8,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -1796,7 +1795,7 @@
 				"box" : 				{
 					"comment" : "restart",
 					"id" : "obj-45",
-					"index" : 6,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -1809,7 +1808,7 @@
 				"box" : 				{
 					"comment" : "pitch",
 					"id" : "obj-44",
-					"index" : 5,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -2930,7 +2929,25 @@
 
 			}
  ],
-		"originid" : "pat-13",
+		"originid" : "pat-193",
+		"parameters" : 		{
+			"obj-101" : [ "Pitch", "Pitch", 0 ],
+			"obj-146" : [ "Selector", "Selector", 0 ],
+			"obj-99" : [ "Speed", "Speed", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [  ],
+		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "AtoV",
 				"default" : 				{
