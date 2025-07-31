@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 4,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -50,7 +50,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 485.0, 382.0, 108.0, 40.0 ],
-					"presentation_linecount" : 2,
 					"text" : "activate the module"
 				}
 
@@ -108,7 +107,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 443.0, 581.0, 150.0, 47.0 ],
+					"patching_rect" : [ 443.0, 581.0, 151.0, 47.0 ],
 					"text" : "Introduces randomness to the phase, altering the timbral characteristics"
 				}
 
@@ -143,7 +142,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 328.0, 588.0, 89.0, 74.0 ],
-					"presentation_linecount" : 5,
 					"text" : "Controls the playback position within the audio buffer"
 				}
 
@@ -178,7 +176,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 560.0, 455.0, 150.0, 47.0 ],
+					"patching_rect" : [ 560.0, 455.0, 151.0, 47.0 ],
 					"text" : "Sets the interpolation time for smooth transitions between frames"
 				}
 
@@ -201,7 +199,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 300.0, 161.0, 125.0, 22.0 ],
+					"patching_rect" : [ 329.0, 153.0, 125.0, 22.0 ],
 					"text" : "loadmess sho0630.aif"
 				}
 
@@ -223,6 +221,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "multichannelsignal" ],
 					"patching_rect" : [ 198.0, 390.0, 280.357140183448792, 165.738093733787537 ],
+					"varname" : "te.phasevocoder",
 					"viewvisibility" : 1
 				}
 
@@ -239,7 +238,7 @@
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "te.buffer.maxpat",
-					"numinlets" : 6,
+					"numinlets" : 7,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
@@ -354,13 +353,13 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-1", 2 ],
+					"destination" : [ "obj-1", 3 ],
 					"source" : [ "obj-3", 0 ]
 				}
 
 			}
  ],
-		"originid" : "pat-4",
+		"originid" : "pat-3729",
 		"parameters" : 		{
 			"obj-1::obj-80" : [ "live.numbox", "live.numbox", 0 ],
 			"obj-2::obj-10" : [ "Interp", "Interp", 0 ],
@@ -373,6 +372,13 @@
 					"index" : 0,
 					"name" : "",
 					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"parameter_overrides" : 			{
+				"obj-1::obj-80" : 				{
+					"parameter_longname" : "live.numbox"
 				}
 
 			}

@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 4,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -41,7 +41,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 534.0, 624.0, 150.0, 33.0 ],
+					"patching_rect" : [ 534.0, 624.0, 151.0, 33.0 ],
 					"text" : "Sets the stereo placement of each grain"
 				}
 
@@ -165,7 +165,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 118.0, 479.0, 108.0, 40.0 ],
-					"presentation_linecount" : 2,
 					"text" : "activate the module"
 				}
 
@@ -246,7 +245,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 586.0, 366.0, 150.0, 60.0 ],
+					"patching_rect" : [ 586.0, 366.0, 151.0, 60.0 ],
 					"text" : "Opens a window displaying all 16 audio channels of the granulator voices"
 				}
 
@@ -269,7 +268,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 340.0, 159.0, 133.0, 22.0 ],
+					"patching_rect" : [ 368.0, 160.0, 133.0, 22.0 ],
 					"text" : "loadmess drumLoop.aif"
 				}
 
@@ -286,7 +285,7 @@
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "te.buffer.maxpat",
-					"numinlets" : 6,
+					"numinlets" : 7,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
@@ -423,13 +422,13 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-3", 2 ],
+					"destination" : [ "obj-3", 3 ],
 					"source" : [ "obj-6", 0 ]
 				}
 
 			}
  ],
-		"originid" : "pat-664",
+		"originid" : "pat-3591",
 		"parameters" : 		{
 			"obj-1::obj-13::obj-1" : [ "mc.live.gain~", "mc.live.gain~", 0 ],
 			"obj-1::obj-13::obj-2" : [ "mc.live.gain~[1]", "mc.live.gain~", 0 ],
@@ -445,6 +444,13 @@
 					"index" : 0,
 					"name" : "",
 					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"parameter_overrides" : 			{
+				"obj-3::obj-80" : 				{
+					"parameter_longname" : "live.numbox"
 				}
 
 			}

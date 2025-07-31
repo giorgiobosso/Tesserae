@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 4,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -14,11 +14,33 @@
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
 				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-18",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "te.player.maxpat",
+					"numinlets" : 9,
+					"numoutlets" : 1,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "multichannelsignal" ],
+					"patching_rect" : [ 229.0, 478.0, 280.0, 172.0 ],
+					"varname" : "te.player",
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-6",
 					"maxclass" : "mc.ezdac~",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 240.559168010950089, 711.0, 45.0, 45.0 ]
+					"patching_rect" : [ 229.0, 682.0, 45.0, 45.0 ]
 				}
 
 			}
@@ -231,34 +253,12 @@
 			}
 , 			{
 				"box" : 				{
-					"bgmode" : 0,
-					"border" : 0,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-9",
-					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "te.player.maxpat",
-					"numinlets" : 11,
-					"numoutlets" : 1,
-					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 240.559168010950089, 502.0, 279.881663978099823, 199.124265253543854 ],
-					"varname" : "te.player",
-					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-7",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 343.0, 188.0, 133.0, 22.0 ],
+					"patching_rect" : [ 371.0, 185.0, 133.0, 22.0 ],
 					"text" : "loadmess drumLoop.aif"
 				}
 
@@ -298,7 +298,7 @@
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "te.buffer.maxpat",
-					"numinlets" : 6,
+					"numinlets" : 7,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
@@ -348,38 +348,44 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"destination" : [ "obj-9", 10 ],
+					"destination" : [ "obj-18", 8 ],
 					"source" : [ "obj-1", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-1", 2 ],
-					"source" : [ "obj-7", 0 ]
+					"destination" : [ "obj-6", 0 ],
+					"source" : [ "obj-18", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-6", 0 ],
-					"source" : [ "obj-9", 0 ]
+					"destination" : [ "obj-1", 3 ],
+					"source" : [ "obj-7", 0 ]
 				}
 
 			}
  ],
-		"originid" : "pat-544",
+		"originid" : "pat-3493",
 		"parameters" : 		{
+			"obj-18::obj-101" : [ "Pitch", "Pitch", 0 ],
+			"obj-18::obj-146" : [ "Selector", "Selector", 0 ],
+			"obj-18::obj-99" : [ "Speed", "Speed", 0 ],
 			"obj-1::obj-80" : [ "live.numbox", "live.numbox", 0 ],
-			"obj-9::obj-101" : [ "Pitch", "Pitch", 0 ],
-			"obj-9::obj-96" : [ "Start", "Start", 0 ],
-			"obj-9::obj-97" : [ "Length", "Length", 0 ],
-			"obj-9::obj-99" : [ "Speed", "Speed", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
 					"name" : "",
 					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"parameter_overrides" : 			{
+				"obj-1::obj-80" : 				{
+					"parameter_longname" : "live.numbox"
 				}
 
 			}

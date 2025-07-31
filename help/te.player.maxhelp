@@ -156,7 +156,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 276.0, 602.0, 91.0, 33.0 ],
+					"patching_rect" : [ 276.0, 602.0, 94.0, 33.0 ],
 					"text" : "Plays the audio in reverse"
 				}
 
@@ -253,7 +253,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 356.0, 150.0, 133.0, 22.0 ],
+					"patching_rect" : [ 384.0, 148.0, 133.0, 22.0 ],
 					"text" : "loadmess drumLoop.aif"
 				}
 
@@ -270,7 +270,7 @@
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "te.buffer.maxpat",
-					"numinlets" : 6,
+					"numinlets" : 7,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
@@ -397,13 +397,13 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-3", 2 ],
+					"destination" : [ "obj-3", 3 ],
 					"source" : [ "obj-7", 0 ]
 				}
 
 			}
  ],
-		"originid" : "pat-45",
+		"originid" : "pat-3761",
 		"parameters" : 		{
 			"obj-14::obj-101" : [ "Pitch", "Pitch", 0 ],
 			"obj-14::obj-146" : [ "Selector", "Selector", 0 ],
