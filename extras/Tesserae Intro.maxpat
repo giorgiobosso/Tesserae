@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 4,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -172,7 +172,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 4,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -206,7 +206,6 @@
 											"parameter_longname" : "live.numbox[3]",
 											"parameter_mmax" : 100.0,
 											"parameter_modmode" : 3,
-											"parameter_osc_name" : "<default>",
 											"parameter_shortname" : "live.numbox[3]",
 											"parameter_steps" : 60,
 											"parameter_type" : 0,
@@ -556,14 +555,10 @@
 
 							}
  ],
-						"originid" : "pat-16"
+						"originid" : "pat-267"
 					}
 ,
 					"patching_rect" : [ 39.0, 383.0, 96.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"globalpatchername" : ""
-					}
-,
 					"text" : "p trigger-presets"
 				}
 
@@ -597,7 +592,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 938.0, 64.0, 359.0, 22.0 ],
+					"patching_rect" : [ 938.0, 58.0, 359.0, 22.0 ],
 					"text" : "loadmess prefix \"~/Documents/Max 9/Packages/Tesserae/media/\""
 				}
 
@@ -759,6 +754,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "int", "int", "float", "", "int" ],
 					"patching_rect" : [ 39.0, 252.0, 340.857793092727661, 125.105262041091919 ],
+					"varname" : "te.globaltransport",
 					"viewvisibility" : 1
 				}
 
@@ -819,7 +815,7 @@
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "te.buffer.maxpat",
-					"numinlets" : 6,
+					"numinlets" : 7,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
@@ -841,7 +837,7 @@
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "te.buffer.maxpat",
-					"numinlets" : 6,
+					"numinlets" : 7,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
@@ -1000,16 +996,16 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-3", 5 ],
-					"order" : 1,
+					"destination" : [ "obj-3", 6 ],
+					"order" : 0,
 					"source" : [ "obj-2", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-6", 5 ],
-					"order" : 0,
+					"destination" : [ "obj-6", 6 ],
+					"order" : 1,
 					"source" : [ "obj-2", 0 ]
 				}
 
@@ -1147,7 +1143,7 @@
 
 			}
  ],
-		"originid" : "pat-4",
+		"originid" : "pat-255",
 		"parameters" : 		{
 			"obj-10::obj-13::obj-1" : [ "mc.live.gain~[3]", "mc.live.gain~", 0 ],
 			"obj-10::obj-13::obj-2" : [ "mc.live.gain~[2]", "mc.live.gain~", 0 ],
@@ -1184,14 +1180,14 @@
 			"obj-34::obj-30" : [ "Duration[2]", "Duration", 0 ],
 			"obj-3::obj-80" : [ "live.numbox[1]", "live.numbox", 0 ],
 			"obj-45::obj-13" : [ "live.numbox[3]", "live.numbox[3]", 0 ],
-			"obj-5::obj-162" : [ "live.menu", "live.menu", 0 ],
+			"obj-5::obj-162" : [ "live.menu", "Rate", 0 ],
 			"obj-5::obj-198" : [ "MapX", "MapX", 0 ],
 			"obj-5::obj-199" : [ "MapY", "MapY", 0 ],
 			"obj-5::obj-200" : [ "Chaos/Swing", "Chaos/Swing", 0 ],
 			"obj-5::obj-202" : [ "Density-1", "Density-1", 0 ],
 			"obj-5::obj-203" : [ "Density-2", "Density-2", 0 ],
 			"obj-5::obj-204" : [ "Density-3", "Density-3", 0 ],
-			"obj-5::obj-208" : [ "live.numbox", "live.numbox", 0 ],
+			"obj-5::obj-208" : [ "live.numbox", "Bpm", 0 ],
 			"obj-6::obj-80" : [ "live.numbox[2]", "live.numbox", 0 ],
 			"obj-9::obj-13::obj-1" : [ "mc.live.gain~", "mc.live.gain~", 0 ],
 			"obj-9::obj-13::obj-2" : [ "mc.live.gain~[1]", "mc.live.gain~", 0 ],
@@ -1281,6 +1277,14 @@
 ,
 				"obj-3::obj-80" : 				{
 					"parameter_longname" : "live.numbox[1]"
+				}
+,
+				"obj-5::obj-162" : 				{
+					"parameter_longname" : "live.menu"
+				}
+,
+				"obj-5::obj-208" : 				{
+					"parameter_longname" : "live.numbox"
 				}
 ,
 				"obj-6::obj-80" : 				{
